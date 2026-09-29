@@ -2,6 +2,7 @@
   'use strict';
   const articles=window.ARTICLES,meta=window.CATALOG_META,P=window.ReadingProgress;
   const names={alignment:'对齐',interpretability:'可解释性',economics:'经济','societal-impacts':'社会影响','frontier-red-team':'前沿红队',science:'科学',engineering:'工程',other:'其他研究',announcements:'公告',product:'产品',policy:'政策',education:'教育',events:'活动','beneficial-deployments':'公益应用','case-studies':'案例',features:'专题',research:'综合研究',evaluations:'评测'};
+  const sourceNames={all:'全部栏目',News:'News 新闻',Research:'Research 研究',Engineering:'Engineering 工程'};
   const key='anthropic-reading-catalog-v2',prefsKey='anthropic-reading-preferences-v1';
   const $=id=>document.getElementById(id);
   const escape=text=>String(text).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -56,14 +57,22 @@
     for(const a of list){const year=a.date.slice(0,4);if(!groups.has(year))groups.set(year,[]);groups.get(year).push(a);}
     $('articles').innerHTML=[...groups].map(([year,items])=>`<section class="year-section" id="year-${year}" aria-labelledby="heading-${year}"><div class="year-heading"><h2 id="heading-${year}">${year}</h2><span>${items.length} 篇文章</span></div>${items.map(row).join('')}</section>`).join('');
     $('year-nav').innerHTML=[...groups].map(([year,items],i)=>`<a class="year-link${i===0?' active':''}" href="#year-${year}"><strong>${year}</strong><span>${items.length}</span></a>`).join('');
-    $('result-count').textContent=`${names[$('category').value]||'全部类别'} · ${list.length} 篇 · ${$('sort').value==='asc'?'从早到晚':'从晚到早'}`;
+    $('result-count').textContent=`${sourceNames[$('source').value]} · ${names[$('category').value]||'全部类别'} · ${list.length} 篇 · ${$('sort').value==='asc'?'从早到晚':'从晚到早'}`;
     $('empty').hidden=list.length!==0;
     $('read-count').textContent=articles.filter(a=>read.has(a.id)).length;
     $('progress').value=Number($('read-count').textContent);
     const newsRead=articles.filter(a=>a.sources.includes('News')&&read.has(a.id)).length;
     $('news-progress').textContent=`News 已读 ${newsRead} / ${meta.newsCount} · 新文章保留未读`;
-    $('category-buttons').innerHTML=['all',...topicKeys.slice(0,8)].map(c=>{
-      const subset=articles.filter(a=>c==='all'||a.categories.includes(c));
+    $('source-buttons').innerHTML=Object.entries(sourceNames).map(([source,label])=>{
+      const subset=articles.filter(a=>source==='all'||a.sources.includes(source));
+      const pending=subset.filter(a=>!read.has(a.id)).length;
+      return `<button type="button" class="category-button source-button" data-source="${source}" aria-pressed="${$('source').value===source}"><span>${label}</span><small>${subset.length} 篇 · ${pending} 篇未读</small></button>`;
+    }).join('');
+    const sourceArticles=articles.filter(a=>$('source').value==='all'||a.sources.includes($('source').value));
+    const newsTopics=['announcements','product','policy','education','events','beneficial-deployments','case-studies','features'];
+    const featuredTopics=$('source').value==='News'?[...new Set([...newsTopics,...topicKeys])]:topicKeys;
+    $('category-buttons').innerHTML=['all',...featuredTopics.filter(c=>sourceArticles.some(a=>a.categories.includes(c))).slice(0,8)].map(c=>{
+      const subset=sourceArticles.filter(a=>c==='all'||a.categories.includes(c));
       const pending=subset.filter(a=>!read.has(a.id)).length;
       return `<button type="button" class="category-button" data-category="${c}" aria-pressed="${$('category').value===c}"><span>${names[c]||'全部'}</span><small>${pending} / ${subset.length} 未读</small></button>`;
     }).join('');
@@ -80,9 +89,10 @@
   }
   function clear(){for(const id of ['source','category','read-filter','new-filter'])$(id).value='all';$('search').value='';$('sort').value='asc';}
   $('search').addEventListener('input',render);
-  for(const id of ['source','category','read-filter','sort','new-filter'])$(id).addEventListener('change',()=>{if(id==='category')$('sort').value='asc';prefs();render();});
+  for(const id of ['source','category','read-filter','sort','new-filter'])$(id).addEventListener('change',()=>{if(id==='source')$('category').value='all';if(id==='category'||id==='source')$('sort').value='asc';prefs();render();});
   $('clear-filters').addEventListener('click',()=>{clear();prefs();render();$('search').focus();});
-  $('category-buttons').addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(!b)return;clear();$('category').value=b.dataset.category;prefs();render();document.querySelector(`[data-category="${b.dataset.category}"]`)?.focus();});
+  $('source-buttons').addEventListener('click',e=>{const b=e.target.closest('[data-source]');if(!b)return;clear();$('source').value=b.dataset.source;prefs();render();document.querySelector(`[data-source="${b.dataset.source}"]`)?.focus({preventScroll:true});});
+  $('category-buttons').addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(!b)return;const source=$('source').value;clear();$('source').value=source;$('category').value=b.dataset.category;prefs();render();document.querySelector(`[data-category="${b.dataset.category}"]`)?.focus({preventScroll:true});});
   $('show-new').addEventListener('click',()=>{clear();$('new-filter').value='new';$('read-filter').value='unread';prefs();render();});
   $('articles').addEventListener('change',e=>{const input=e.target.closest('[data-read]');if(!input)return;const id=input.dataset.read;mark([id],input.checked);[...document.querySelectorAll('[data-read]')].find(e=>e.dataset.read===id)?.focus({preventScroll:true});});
   $('export-progress').addEventListener('click',()=>{
