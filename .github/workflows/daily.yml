@@ -1,0 +1,86 @@
+name: Daily catalogue and GitHub Pages
+
+on:
+  schedule:
+    # 09:17 Asia/Shanghai. Avoid the busy top of the hour.
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: catalogue-pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    outputs:
+      refresh_failed: ${{ steps.refresh.outcome == 'failure' }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Install scraper dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Validate stored catalogue and reading-state code
+        run: |
+          node scripts/check_progress.cjs
+          node --check dist/reader.js
+          node --check dist/file-backup.js
+          python -m unittest discover -s tests
+      - name: Check all official sources
+        id: refresh
+        continue-on-error: true
+        run: python scripts/refresh_catalog.py
+      - name: Validate refreshed catalogue
+        run: node scripts/check_progress.cjs
+      - name: Commit daily record and catalogue
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data dist/catalog.js dist/catalog-meta.json dist/checks.js dist/checks.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Daily source check $(TZ=Asia/Shanghai date +%F)"
+            git push origin HEAD:main
+          fi
+      - name: Add daily run summary
+        if: always()
+        run: python scripts/run_summary.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report failed source check after preserving the working page
+        if: needs.update.outputs.refresh_failed == 'true'
+        run: |
+          echo 'Source check failed. The previous catalogue was preserved and the failed daily check is visible on the page.'
+          exit 1

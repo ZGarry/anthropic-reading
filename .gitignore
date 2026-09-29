@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env*
+.openai/
+backups/
+*reading-progress*.json
+*confirmed-progress*.json
+*.tmp

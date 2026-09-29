@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172b32">
+  <title>Anthropic 阅读目录 · News 与研究</title>
+  <meta name="description" content="按类别与时间阅读 Anthropic News、Research 和 Engineering；GitHub Actions 每日核对，个人进度在本地保存。">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23172b32'/%3E%3Cpath d='M9 7v18M14 9h10M14 16h8M14 23h10' stroke='%23ee9870' stroke-width='2.5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#articles">跳转到文章</a>
+  <aside class="sidebar">
+    <a class="identity" href="#top" aria-label="目录顶部"><span class="mark" aria-hidden="true">a<span> / </span></span><span>个人阅读目录<small>ANTHROPIC ARCHIVE</small></span></a>
+    <div class="side-heading">按年份阅读</div>
+    <nav id="year-nav" class="year-nav" aria-label="年份导航"></nav>
+    <div class="reading-progress">
+      <div class="progress-label"><span>阅读进度</span><span><b id="read-count">0</b> / <span id="progress-total">443</span></span></div>
+      <progress id="progress" value="0" max="188" aria-label="阅读进度"></progress>
+      <p id="storage-note">已读状态自动保存在此浏览器。</p>
+    </div>
+    <div class="side-bottom"><span>目录来源</span><a href="https://www.anthropic.com/news" target="_blank" rel="noopener noreferrer">News <span aria-hidden="true">↗</span></a><a href="https://www.anthropic.com/research" target="_blank" rel="noopener noreferrer">Research <span aria-hidden="true">↗</span></a><a href="https://www.anthropic.com/engineering" target="_blank" rel="noopener noreferrer">Engineering <span aria-hidden="true">↗</span></a><small>独立整理 · 非 Anthropic 官方网站</small></div>
+  </aside>
+  <main id="top">
+    <header class="page-header">
+      <div><div class="eyebrow">READING ARCHIVE <span>2021 — 2026</span></div><h1>Anthropic<br class="mobile-break"> 阅读目录</h1><p class="intro" id="intro">News、Research 与 Engineering · 已去重</p><p class="news-note" id="news-progress">阅读进度保存在当前浏览器</p></div>
+      <div class="total"><strong id="total-count">443</strong><span>篇文章</span></div>
+    </header>
+    <section class="reading-controls" aria-label="分类阅读与本地备份">
+      <div class="category-heading"><h2>先选类别，按时间阅读</h2><span>数字为未读 / 总篇数；分类可重合</span></div>
+      <div id="category-buttons" class="category-buttons"></div>
+      <div class="category-select"><label for="category">全部类别</label><select id="category"><option value="all">全部类别</option></select><span id="category-progress"></span></div>
+      <div class="continue-box"><span id="next-date"></span><a id="continue-reading" href="#articles" target="_blank" rel="noopener noreferrer">继续阅读</a></div>
+      <div class="local-tools"><button type="button" id="export-progress">导出进度备份</button><button type="button" id="import-progress">导入进度备份</button><button type="button" id="connect-backup-file">连接自动备份文件</button><input id="backup-file" type="file" accept="application/json,.json" hidden><span>勾选即保存 · 阅读日期按日记录</span></div>
+      <p id="backup-message" role="status" aria-live="polite">备份可存到电脑；导入时保留每篇文章较新的修改。</p>
+      <p id="file-backup-note" role="status" aria-live="polite">连接一个本地 JSON 文件后，后续勾选会自动写入备份。</p>
+    </section>
+    <div class="update-strip"><span id="checked-at"></span><button type="button" id="show-new" aria-pressed="false">新增未读</button></div>
+    <details class="daily-checks"><summary>每日核对记录 <span id="check-health"></span></summary><p>每天北京时间 09:17 由 GitHub 脚本核对；按完整列表去重补收，不调用 AI。调度可能延迟。</p><div id="daily-check-list"></div><a href="https://github.com/ZGarry/anthropic-reading/actions" target="_blank" rel="noopener noreferrer">查看抓取运行记录</a></details>
+    <div class="toolbar" aria-label="阅读目录筛选">
+      <div class="search-wrap"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><label class="sr-only" for="search">搜索文章标题、年份或主题</label><input id="search" type="search" placeholder="搜索标题、年份或主题…" autocomplete="off"></div>
+      <label class="sr-only" for="source">文章栏目</label><select id="source"><option value="all">全部栏目</option><option value="News">News</option><option value="Research">Research</option><option value="Engineering">Engineering</option></select>
+      <label class="sr-only" for="new-filter">收录状态</label><select id="new-filter"><option value="all">全部收录</option><option value="new">新增未读</option></select>
+      <label class="sr-only" for="read-filter">阅读状态</label><select id="read-filter"><option value="all">全部状态</option><option value="unread">未读</option><option value="read">已读</option></select>
+      <label class="sr-only" for="sort">时间顺序</label><select id="sort"><option value="asc">从早到晚</option><option value="desc">从晚到早</option></select>
+    </div>
+    <div class="list-summary"><span id="result-count" role="status" aria-live="polite">全部文章</span><span class="open-note">点击标题，在新标签页阅读原文 <span aria-hidden="true">↗</span></span></div>
+    <div id="articles" tabindex="-1"></div>
+    <div id="empty" hidden><span class="empty-number">0</span><h2>没有符合条件的文章</h2><p>试试其他关键词，或清除筛选。</p><button id="clear-filters" type="button">清除筛选</button></div>
+    <noscript><p>请启用 JavaScript，以显示完整文章目录。</p></noscript>
+    <footer class="footer"><div><strong>关于目录与记录</strong><p>核对 News、Research 总表、五个研究团队、Science 与 Engineering。分类沿用官网标签及团队归属，文章可属于多个类别。新增收录也可能是补收的旧文，始终按原发布日期排序。个人进度保存在此浏览器和你授权的本地备份文件中，不会上传到公开仓库。迁移旧目录时请导入原有进度备份；不同设备之间通过备份迁移。勾选表示读完，打开链接不会自动标记。外部独立博客和论文库尚未纳入自动核对。</p></div><a href="https://github.com/ZGarry/anthropic-reading" target="_blank" rel="noopener noreferrer">GitHub 源码</a></footer>
+  </main>
+  <script src="catalog.js"></script>
+  <script src="checks.js"></script>
+  <script src="progress.js"></script>
+  <script src="file-backup.js"></script>
+  <script src="reader.js"></script>
+</body>
+</html>

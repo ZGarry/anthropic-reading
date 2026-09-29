@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-29",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-09-29T08:22:10+00:00",
+      "total": 448,
+      "newIds": [],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 272,
+        "Research": 169,
+        "Engineering": 25,
+        "alignment": 43,
+        "economics": 20,
+        "interpretability": 34,
+        "societal-impacts": 24,
+        "frontier-red-team": 28,
+        "science": 11
+      },
+      "noLongerListed": []
+    }
+  ]
+}
