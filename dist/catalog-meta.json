@@ -1,31 +1,28 @@
 {
-  "total": 448,
+  "total": 450,
   "newsCount": 272,
-  "researchCount": 170,
+  "researchCount": 172,
   "engineeringCount": 25,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-09-29T08:37:58+00:00",
-  "lastSuccessfulDay": "2026-09-29",
-  "newsSnapshot": "2026-09-29",
-  "researchSnapshot": "2026-09-29",
+  "checkedAt": "2026-09-30T06:47:08+00:00",
+  "lastSuccessfulDay": "2026-09-30",
+  "newsSnapshot": "2026-09-30",
+  "researchSnapshot": "2026-09-30",
   "sourceCounts": {
     "News": 272,
-    "Research": 169,
+    "Research": 171,
     "Engineering": 25,
     "alignment": 43,
     "economics": 20,
     "interpretability": 34,
-    "societal-impacts": 24,
-    "frontier-red-team": 28,
+    "societal-impacts": 25,
+    "frontier-red-team": 29,
     "science": 11
   },
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "claude-sonnet-5-5",
-    "yes-claude-can-do-nine-loops",
-    "project-swap",
-    "measuring-pace-of-ai-development",
-    "81k-interviews"
+    "your-thoughts-on-ai",
+    "glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
   ]
 }

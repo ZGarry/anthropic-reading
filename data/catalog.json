@@ -6833,5 +6833,38 @@
     "addedOn": "2026-09-29",
     "number": 448,
     "source": "News"
+  },
+  {
+    "id": "glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+    "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+    "date": "2026-09-29",
+    "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+    "categories": [
+      "frontier-red-team",
+      "policy"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-09-30",
+    "number": 449,
+    "source": "Research"
+  },
+  {
+    "id": "your-thoughts-on-ai",
+    "title": "What do you want from AI?",
+    "date": "2026-09-29",
+    "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
+    "categories": [
+      "societal-impacts"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-09-30",
+    "number": 450,
+    "source": "Research"
   }
 ]

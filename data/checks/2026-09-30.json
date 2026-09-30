@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-30",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-09-30T06:47:08+00:00",
+      "total": 450,
+      "newIds": [
+        "your-thoughts-on-ai",
+        "glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+      ],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 272,
+        "Research": 171,
+        "Engineering": 25,
+        "alignment": 43,
+        "economics": 20,
+        "interpretability": 34,
+        "societal-impacts": 25,
+        "frontier-red-team": 29,
+        "science": 11
+      },
+      "noLongerListed": []
+    }
+  ]
+}
