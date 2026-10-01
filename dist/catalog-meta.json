@@ -1,19 +1,19 @@
 {
-  "total": 450,
+  "total": 451,
   "newsCount": 272,
-  "researchCount": 172,
+  "researchCount": 173,
   "engineeringCount": 25,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-09-30T06:47:08+00:00",
-  "lastSuccessfulDay": "2026-09-30",
-  "newsSnapshot": "2026-09-30",
-  "researchSnapshot": "2026-09-30",
+  "checkedAt": "2026-10-01T07:12:47+00:00",
+  "lastSuccessfulDay": "2026-10-01",
+  "newsSnapshot": "2026-10-01",
+  "researchSnapshot": "2026-10-01",
   "sourceCounts": {
     "News": 272,
-    "Research": 171,
+    "Research": 172,
     "Engineering": 25,
     "alignment": 43,
-    "economics": 20,
+    "economics": 21,
     "interpretability": 34,
     "societal-impacts": 25,
     "frontier-red-team": 29,
@@ -22,7 +22,6 @@
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "your-thoughts-on-ai",
-    "glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+    "what-work-can-robots-do"
   ]
 }

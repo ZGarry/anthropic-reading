@@ -1,18 +1,17 @@
 {
   "status": "success",
-  "checkedAt": "2026-09-30T06:47:08+00:00",
-  "total": 450,
+  "checkedAt": "2026-10-01T07:12:47+00:00",
+  "total": 451,
   "newIds": [
-    "your-thoughts-on-ai",
-    "glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+    "what-work-can-robots-do"
   ],
   "changedIds": [],
   "sourceCounts": {
     "News": 272,
-    "Research": 171,
+    "Research": 172,
     "Engineering": 25,
     "alignment": 43,
-    "economics": 20,
+    "economics": 21,
     "interpretability": 34,
     "societal-impacts": 25,
     "frontier-red-team": 29,

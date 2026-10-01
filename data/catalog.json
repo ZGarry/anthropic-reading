@@ -6866,5 +6866,21 @@
     "addedOn": "2026-09-30",
     "number": 450,
     "source": "Research"
+  },
+  {
+    "id": "what-work-can-robots-do",
+    "title": "What work can robots do?",
+    "date": "2026-09-30",
+    "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+    "categories": [
+      "economics"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-01",
+    "number": 451,
+    "source": "Research"
   }
 ]
