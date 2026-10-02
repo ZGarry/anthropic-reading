@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-02",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-10-02T07:02:45+00:00",
+      "total": 453,
+      "newIds": [
+        "barclays-scales-claude",
+        "claude-shaped-science"
+      ],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 273,
+        "Research": 173,
+        "Engineering": 25,
+        "alignment": 43,
+        "economics": 21,
+        "interpretability": 34,
+        "societal-impacts": 25,
+        "frontier-red-team": 29,
+        "science": 12
+      },
+      "noLongerListed": []
+    }
+  ]
+}

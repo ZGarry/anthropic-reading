@@ -1,21 +1,22 @@
 {
   "status": "success",
-  "checkedAt": "2026-10-01T07:12:47+00:00",
-  "total": 451,
+  "checkedAt": "2026-10-02T07:02:45+00:00",
+  "total": 453,
   "newIds": [
-    "what-work-can-robots-do"
+    "barclays-scales-claude",
+    "claude-shaped-science"
   ],
   "changedIds": [],
   "sourceCounts": {
-    "News": 272,
-    "Research": 172,
+    "News": 273,
+    "Research": 173,
     "Engineering": 25,
     "alignment": 43,
     "economics": 21,
     "interpretability": 34,
     "societal-impacts": 25,
     "frontier-red-team": 29,
-    "science": 11
+    "science": 12
   },
   "noLongerListed": []
 }

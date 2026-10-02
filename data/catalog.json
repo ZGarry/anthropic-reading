@@ -6882,5 +6882,37 @@
     "addedOn": "2026-10-01",
     "number": 451,
     "source": "Research"
+  },
+  {
+    "id": "barclays-scales-claude",
+    "title": "Barclays scales Claude to upgrade operations and improve client experience",
+    "date": "2026-10-01",
+    "url": "https://www.anthropic.com/news/barclays-scales-claude",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-02",
+    "number": 452,
+    "source": "News"
+  },
+  {
+    "id": "claude-shaped-science",
+    "title": "Claude-shaped science",
+    "date": "2026-10-01",
+    "url": "https://www.anthropic.com/research/claude-shaped-science",
+    "categories": [
+      "science"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-02",
+    "number": 453,
+    "source": "Research"
   }
 ]

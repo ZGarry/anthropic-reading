@@ -96,5 +96,13 @@
       "what-work-can-robots-do"
     ],
     "changedIds": []
+  },
+  {
+    "checkedAt": "2026-10-02T07:02:45+00:00",
+    "newIds": [
+      "barclays-scales-claude",
+      "claude-shaped-science"
+    ],
+    "changedIds": []
   }
 ]

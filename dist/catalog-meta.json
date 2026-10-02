@@ -1,27 +1,28 @@
 {
-  "total": 451,
-  "newsCount": 272,
-  "researchCount": 173,
+  "total": 453,
+  "newsCount": 273,
+  "researchCount": 174,
   "engineeringCount": 25,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-10-01T07:12:47+00:00",
-  "lastSuccessfulDay": "2026-10-01",
-  "newsSnapshot": "2026-10-01",
-  "researchSnapshot": "2026-10-01",
+  "checkedAt": "2026-10-02T07:02:45+00:00",
+  "lastSuccessfulDay": "2026-10-02",
+  "newsSnapshot": "2026-10-02",
+  "researchSnapshot": "2026-10-02",
   "sourceCounts": {
-    "News": 272,
-    "Research": 172,
+    "News": 273,
+    "Research": 173,
     "Engineering": 25,
     "alignment": 43,
     "economics": 21,
     "interpretability": 34,
     "societal-impacts": 25,
     "frontier-red-team": 29,
-    "science": 11
+    "science": 12
   },
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "what-work-can-robots-do"
+    "barclays-scales-claude",
+    "claude-shaped-science"
   ]
 }
