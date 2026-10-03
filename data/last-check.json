@@ -1,14 +1,13 @@
 {
   "status": "success",
-  "checkedAt": "2026-10-02T07:02:45+00:00",
-  "total": 453,
+  "checkedAt": "2026-10-03T06:36:04+00:00",
+  "total": 454,
   "newIds": [
-    "barclays-scales-claude",
-    "claude-shaped-science"
+    "claude-frontier-academy"
   ],
   "changedIds": [],
   "sourceCounts": {
-    "News": 273,
+    "News": 274,
     "Research": 173,
     "Engineering": 25,
     "alignment": 43,
