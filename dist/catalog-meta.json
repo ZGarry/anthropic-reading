@@ -1,15 +1,15 @@
 {
-  "total": 454,
-  "newsCount": 274,
+  "total": 455,
+  "newsCount": 275,
   "researchCount": 174,
   "engineeringCount": 25,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-10-06T07:36:47+00:00",
-  "lastSuccessfulDay": "2026-10-06",
-  "newsSnapshot": "2026-10-06",
-  "researchSnapshot": "2026-10-06",
+  "checkedAt": "2026-10-07T07:17:14+00:00",
+  "lastSuccessfulDay": "2026-10-07",
+  "newsSnapshot": "2026-10-07",
+  "researchSnapshot": "2026-10-07",
   "sourceCounts": {
-    "News": 274,
+    "News": 275,
     "Research": 173,
     "Engineering": 25,
     "alignment": 43,
@@ -22,6 +22,6 @@
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "claude-frontier-academy"
+    "cyber-verification-program"
   ]
 }

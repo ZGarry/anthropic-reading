@@ -6930,5 +6930,21 @@
     "addedOn": "2026-10-03",
     "number": 454,
     "source": "News"
+  },
+  {
+    "id": "cyber-verification-program",
+    "title": "Expanding the Cyber Verification Program",
+    "date": "2026-10-06",
+    "url": "https://www.anthropic.com/news/cyber-verification-program",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-07",
+    "number": 455,
+    "source": "News"
   }
 ]

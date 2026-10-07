@@ -1,11 +1,13 @@
 {
   "status": "success",
-  "checkedAt": "2026-10-06T07:36:47+00:00",
-  "total": 454,
-  "newIds": [],
+  "checkedAt": "2026-10-07T07:17:14+00:00",
+  "total": 455,
+  "newIds": [
+    "cyber-verification-program"
+  ],
   "changedIds": [],
   "sourceCounts": {
-    "News": 274,
+    "News": 275,
     "Research": 173,
     "Engineering": 25,
     "alignment": 43,
