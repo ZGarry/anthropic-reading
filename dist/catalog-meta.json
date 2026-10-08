@@ -1,15 +1,15 @@
 {
-  "total": 455,
-  "newsCount": 275,
+  "total": 456,
+  "newsCount": 276,
   "researchCount": 174,
   "engineeringCount": 25,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-10-07T07:17:14+00:00",
-  "lastSuccessfulDay": "2026-10-07",
-  "newsSnapshot": "2026-10-07",
-  "researchSnapshot": "2026-10-07",
+  "checkedAt": "2026-10-08T07:28:32+00:00",
+  "lastSuccessfulDay": "2026-10-08",
+  "newsSnapshot": "2026-10-08",
+  "researchSnapshot": "2026-10-08",
   "sourceCounts": {
-    "News": 275,
+    "News": 274,
     "Research": 173,
     "Engineering": 25,
     "alignment": 43,
@@ -22,6 +22,6 @@
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "cyber-verification-program"
+    "claude-haiku-5-5"
   ]
 }

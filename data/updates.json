@@ -118,5 +118,12 @@
       "cyber-verification-program"
     ],
     "changedIds": []
+  },
+  {
+    "checkedAt": "2026-10-08T07:28:32+00:00",
+    "newIds": [
+      "claude-haiku-5-5"
+    ],
+    "changedIds": []
   }
 ]

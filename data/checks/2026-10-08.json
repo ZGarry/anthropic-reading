@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-10-08T07:28:32+00:00",
+      "total": 456,
+      "newIds": [
+        "claude-haiku-5-5"
+      ],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 274,
+        "Research": 173,
+        "Engineering": 25,
+        "alignment": 43,
+        "economics": 21,
+        "interpretability": 34,
+        "societal-impacts": 25,
+        "frontier-red-team": 29,
+        "science": 12
+      },
+      "noLongerListed": [
+        "claude-fable-and-mythos-5-1",
+        "threat-intelligence-report-september-2026"
+      ]
+    }
+  ]
+}
