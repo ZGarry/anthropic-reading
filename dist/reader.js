@@ -47,7 +47,15 @@
   }
   function prefs(){try{localStorage.setItem(prefsKey,JSON.stringify(Object.fromEntries(['source','category','read-filter','sort','new-filter'].map(id=>[id,$(id).value]))));}catch(_){} }
   function reloadState(){const saved=P.initialize(articles,storageGet(key),null,meta.readBatch);state=window.CloudProgress.merge(state,saved);}
-  function mark(ids,done){if(accountLoading){announce('正在确认登录账号，请稍候再标记。');return;}reloadState();for(const id of ids)P.setRead(state,id,done,Math.max(Date.now(),(state.entries[id]?.updatedAt||0)+1));save();render();}
+  function mark(ids,done,{onlyUnread=false,deferRender=false}={}){
+    if(accountLoading){announce('正在确认登录账号，请稍候再标记。');return;}
+    reloadState();const changed=ids.filter(id=>!onlyUnread||!state.entries[id]?.read);
+    if(!changed.length)return;
+    for(const id of changed)P.setRead(state,id,done,Math.max(Date.now(),(state.entries[id]?.updatedAt||0)+1));
+    save();
+    // Preserve the activated link until the browser has opened its original URL.
+    if(deferRender)setTimeout(render,0);else render();
+  }
   function scope(a){return ($('source').value==='all'||a.sources.includes($('source').value))&&($('category').value==='all'||a.categories.includes($('category').value));}
   function matches(a){
     const query=$('search').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
@@ -57,7 +65,7 @@
   function row(a){
     const done=read.has(a.id),entry=state.entries[a.id];
     const completed=entry?.completedAt?new Date(entry.completedAt).toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai'}):null;
-    return `<article class="article${done?' is-read':''}" data-id="${escape(a.id)}"><label class="check-area"><input type="checkbox" data-read="${escape(a.id)}" ${done?'checked':''} aria-label="已读：${escape(a.title)}"></label><span class="number">${String(a.number).padStart(3,'0')}</span><time datetime="${a.date}">${a.date.replaceAll('-','.')}</time><div class="article-content"><a class="article-title" href="${escape(a.url)}" target="_blank" rel="noopener noreferrer">${escape(a.title)}</a><div class="article-tags"><span class="tag source-tag">${escape(a.source)}</span>${a.categories.map(c=>`<span class="tag">${escape(names[c]||c)}</span>`).join('')}${a.addedOn&&!done?`<span class="new-badge" title="${a.addedOn} 加入目录，不一定是新发布的文章">新增收录</span>`:''}${done?`<span class="read-text">已读${completed?' · '+completed:''}</span>`:''}</div></div><span class="article-arrow" aria-hidden="true">↗</span></article>`;
+    return `<article class="article${done?' is-read':''}" data-id="${escape(a.id)}"><label class="check-area"><input type="checkbox" data-read="${escape(a.id)}" ${done?'checked':''} aria-label="已读：${escape(a.title)}"></label><span class="number">${String(a.number).padStart(3,'0')}</span><time datetime="${a.date}">${a.date.replaceAll('-','.')}</time><div class="article-content"><a class="article-title" data-open-article="${escape(a.id)}" href="${escape(a.url)}" target="_blank" rel="noopener noreferrer">${escape(a.title)}</a><div class="article-tags"><span class="tag source-tag">${escape(a.source)}</span>${a.categories.map(c=>`<span class="tag">${escape(names[c]||c)}</span>`).join('')}${a.addedOn&&!done?`<span class="new-badge" title="${a.addedOn} 加入目录，不一定是新发布的文章">新增收录</span>`:''}${done?`<span class="read-text">已读${completed?' · '+completed:''}</span>`:''}</div></div><span class="article-arrow" aria-hidden="true">↗</span></article>`;
   }
   function render(){
     const list=articles.filter(matches).sort((a,b)=>$('sort').value==='asc'?a.number-b.number:b.number-a.number);
@@ -87,8 +95,8 @@
     const selected=articles.filter(scope),pending=selected.filter(a=>!read.has(a.id));
     $('category-progress').textContent=`当前类别与栏目：${selected.length-pending.length} / ${selected.length} 篇已读，剩余 ${pending.length} 篇`;
     const next=pending[0],link=$('continue-reading');
-    if(next){link.hidden=false;link.href=next.url;link.textContent=`继续阅读：${next.title}`;$('next-date').textContent=`${next.date} · 最早未读`;}
-    else{link.hidden=true;$('next-date').textContent=selected.length?'该类别已读完':'该组合下暂无文章';}
+    if(next){link.hidden=false;link.href=next.url;link.dataset.openArticle=next.id;link.textContent=`继续阅读：${next.title}`;$('next-date').textContent=`${next.date} · 最早未读`;}
+    else{link.hidden=true;delete link.dataset.openArticle;$('next-date').textContent=selected.length?'该类别已读完':'该组合下暂无文章';}
     const newUnread=articles.filter(a=>a.addedOn&&!read.has(a.id)).length;
     $('show-new').textContent=`新增未读 ${newUnread} 篇`;
     $('show-new').setAttribute('aria-pressed',$('new-filter').value==='new');
@@ -105,6 +113,13 @@
   $('category-buttons').addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(!b)return;const source=$('source').value;clear();$('source').value=source;$('category').value=b.dataset.category;prefs();render();document.querySelector(`[data-category="${b.dataset.category}"]`)?.focus({preventScroll:true});});
   $('show-new').addEventListener('click',()=>{clear();$('new-filter').value='new';$('read-filter').value='unread';prefs();render();});
   $('articles').addEventListener('change',e=>{const input=e.target.closest('[data-read]');if(!input)return;const id=input.dataset.read;mark([id],input.checked);[...document.querySelectorAll('[data-read]')].find(e=>e.dataset.read===id)?.focus({preventScroll:true});});
+  function readOnOpen(event){
+    if(event.defaultPrevented||(event.type==='click'?event.button!==0:event.button!==1))return;
+    const link=event.target.closest('a[data-open-article]');if(!link)return;
+    mark([link.dataset.openArticle],true,{onlyUnread:true,deferRender:true});
+  }
+  document.addEventListener('click',readOnOpen);
+  document.addEventListener('auxclick',readOnOpen);
   $('export-progress').addEventListener('click',()=>{
     reloadState();
     const payload=P.backup(state,articles),blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob);

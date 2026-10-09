@@ -23,15 +23,15 @@
     <div class="side-bottom"><span>目录来源</span><a href="https://www.anthropic.com/news" target="_blank" rel="noopener noreferrer">News <span aria-hidden="true">↗</span></a><a href="https://www.anthropic.com/research" target="_blank" rel="noopener noreferrer">Research <span aria-hidden="true">↗</span></a><a href="https://www.anthropic.com/engineering" target="_blank" rel="noopener noreferrer">Engineering <span aria-hidden="true">↗</span></a><small>独立整理 · 非 Anthropic 官方网站</small></div>
   </aside>
   <main id="top">
+    <section class="cloud-panel" aria-label="账号与云端同步">
+      <div class="cloud-identity"><h2 class="sr-only">阅读记录随账号保存</h2><span id="cloud-account">尚未登录</span><p id="cloud-status" role="status" aria-live="polite">正在检查云端登录服务…</p></div>
+      <div class="cloud-actions"><button type="button" id="cloud-login" disabled>使用 Google 账号登录</button><button type="button" id="cloud-retry" hidden>重新同步</button><button type="button" id="cloud-logout" hidden>退出登录</button></div>
+      <div id="cloud-migration" hidden><p>本机有 <strong id="migration-count">0</strong> 篇已读记录。是否合并到上方 Google 账号？云端已有记录会保留较新的修改。</p><button type="button" id="migrate-local">合并本机记录并同步</button><button type="button" id="skip-migration">只使用此账号的记录</button></div>
+    </section>
     <header class="page-header">
       <div><div class="eyebrow">READING ARCHIVE <span>2021 — 2026</span></div><h1>Anthropic<br class="mobile-break"> 阅读目录</h1><p class="intro" id="intro">News、Research 与 Engineering · 已去重</p><p class="news-note" id="news-progress">阅读进度保存在当前浏览器</p></div>
       <div class="total"><strong id="total-count">443</strong><span>篇文章</span></div>
     </header>
-    <section class="cloud-panel" aria-label="账号与云端同步">
-      <div><h2>阅读记录随账号保存</h2><span id="cloud-account">尚未登录</span><p id="cloud-status" role="status" aria-live="polite">正在检查云端登录服务…</p></div>
-      <div class="cloud-actions"><button type="button" id="cloud-login" disabled>使用 Google 账号登录</button><button type="button" id="cloud-retry" hidden>重新同步</button><button type="button" id="cloud-logout" hidden>退出登录</button></div>
-      <div id="cloud-migration" hidden><p>本机有 <strong id="migration-count">0</strong> 篇已读记录。是否合并到上方 Google 账号？云端已有记录会保留较新的修改。</p><button type="button" id="migrate-local">合并本机记录并同步</button><button type="button" id="skip-migration">只使用此账号的记录</button></div>
-    </section>
     <section class="reading-controls" aria-label="分类阅读与本地备份">
       <div class="category-heading"><h2>选择栏目</h2><span>栏目内可继续按类别筛选</span></div>
       <div id="source-buttons" class="source-buttons" role="group" aria-label="栏目目录"></div>
@@ -39,7 +39,7 @@
       <div id="category-buttons" class="category-buttons"></div>
       <div class="category-select"><label for="category">全部类别</label><select id="category"><option value="all">全部类别</option></select><span id="category-progress"></span></div>
       <div class="continue-box"><span id="next-date"></span><a id="continue-reading" href="#articles" target="_blank" rel="noopener noreferrer">继续阅读</a></div>
-      <div class="local-tools"><button type="button" id="export-progress">导出进度备份</button><button type="button" id="import-progress">导入进度备份</button><button type="button" id="connect-backup-file">连接自动备份文件</button><input id="backup-file" type="file" accept="application/json,.json" hidden><span>勾选即保存 · 阅读日期按日记录</span></div>
+      <div class="local-tools"><button type="button" id="export-progress">导出进度备份</button><button type="button" id="import-progress">导入进度备份</button><button type="button" id="connect-backup-file">连接自动备份文件</button><input id="backup-file" type="file" accept="application/json,.json" hidden><span>打开文章自动已读 · 可手动取消</span></div>
       <p id="backup-message" role="status" aria-live="polite">备份可存到电脑；导入时保留每篇文章较新的修改。</p>
       <p id="file-backup-note" role="status" aria-live="polite">连接一个本地 JSON 文件后，后续勾选会自动写入备份。</p>
       <details id="backup-details" class="backup-details">
@@ -60,11 +60,11 @@
       <label class="sr-only" for="read-filter">阅读状态</label><select id="read-filter"><option value="all">全部状态</option><option value="unread">未读</option><option value="read">已读</option></select>
       <label class="sr-only" for="sort">时间顺序</label><select id="sort"><option value="asc">从早到晚</option><option value="desc">从晚到早</option></select>
     </div>
-    <div class="list-summary"><span id="result-count" role="status" aria-live="polite">全部文章</span><span class="open-note">点击标题，在新标签页阅读原文 <span aria-hidden="true">↗</span></span></div>
+    <div class="list-summary"><span id="result-count" role="status" aria-live="polite">全部文章</span><span class="open-note">点击标题，自动已读并打开原文 <span aria-hidden="true">↗</span></span></div>
     <div id="articles" tabindex="-1"></div>
     <div id="empty" hidden><span class="empty-number">0</span><h2>没有符合条件的文章</h2><p>试试其他关键词，或清除筛选。</p><button id="clear-filters" type="button">清除筛选</button></div>
     <noscript><p>请启用 JavaScript，以显示完整文章目录。</p></noscript>
-    <footer class="footer"><div><strong>关于目录与记录</strong><p>核对 News、Research 总表、五个研究团队、Science 与 Engineering。分类沿用官网标签及团队归属，文章可属于多个类别。新增收录也可能是补收的旧文，始终按原发布日期排序。进度自动保存在此浏览器；Google 登录和云服务启用后，同一账号的记录会自动跨设备同步，保存结果以上方状态为准。个人记录不会上传到公开仓库。也可导出文件备份。勾选表示读完，打开链接不会自动标记。外部独立博客和论文库尚未纳入自动核对。</p></div><a href="https://github.com/ZGarry/anthropic-reading" target="_blank" rel="noopener noreferrer">GitHub 源码</a></footer>
+    <footer class="footer"><div><strong>关于目录与记录</strong><p>核对 News、Research 总表、五个研究团队、Science 与 Engineering。分类沿用官网标签及团队归属，文章可属于多个类别。新增收录也可能是补收的旧文，始终按原发布日期排序。进度自动保存在此浏览器；Google 登录后，同一账号的记录会自动跨设备同步，保存结果以右上角状态为准。个人记录不会上传到公开仓库。也可导出文件备份。点击文章标题或“继续阅读”会自动标记已读，勾选框可手动取消。外部独立博客和论文库尚未纳入自动核对。</p></div><a href="https://github.com/ZGarry/anthropic-reading" target="_blank" rel="noopener noreferrer">GitHub 源码</a></footer>
   </main>
   <script src="catalog.js"></script>
   <script src="checks.js"></script>
