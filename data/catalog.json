@@ -6962,5 +6962,85 @@
     "addedOn": "2026-10-08",
     "number": 456,
     "source": "News"
+  },
+  {
+    "id": "2026-usage-policy-update",
+    "title": "2026 Usage Policy update",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-09",
+    "number": 457,
+    "source": "News"
+  },
+  {
+    "id": "anthropic-cyber-mission",
+    "title": "Introducing the Anthropic Cyber Mission",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-09",
+    "number": 458,
+    "source": "News"
+  },
+  {
+    "id": "genesis-mission-commitment",
+    "title": "Building on our commitment to American scientific discovery",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-09",
+    "number": 459,
+    "source": "News"
+  },
+  {
+    "id": "launching-opt-in-vuln-finding-service-for-open-source",
+    "title": "Launching an opt-in vulnerability-finding service for open-source software",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+    "categories": [
+      "frontier-red-team"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-09",
+    "number": 460,
+    "source": "Research"
+  },
+  {
+    "id": "the-missing-map-of-the-sky",
+    "title": "The missing map of the sky",
+    "date": "2026-10-08",
+    "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+    "categories": [
+      "science"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-09",
+    "number": 461,
+    "source": "Research"
   }
 ]

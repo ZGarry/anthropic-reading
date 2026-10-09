@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-09",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-10-09T07:26:56+00:00",
+      "total": 461,
+      "newIds": [
+        "2026-usage-policy-update",
+        "genesis-mission-commitment",
+        "anthropic-cyber-mission",
+        "the-missing-map-of-the-sky",
+        "launching-opt-in-vuln-finding-service-for-open-source"
+      ],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 277,
+        "Research": 175,
+        "Engineering": 25,
+        "alignment": 43,
+        "economics": 21,
+        "interpretability": 34,
+        "societal-impacts": 25,
+        "frontier-red-team": 30,
+        "science": 13
+      },
+      "noLongerListed": [
+        "claude-fable-and-mythos-5-1",
+        "threat-intelligence-report-september-2026"
+      ]
+    }
+  ]
+}

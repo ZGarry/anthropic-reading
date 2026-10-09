@@ -1,27 +1,31 @@
 {
-  "total": 456,
-  "newsCount": 276,
-  "researchCount": 174,
+  "total": 461,
+  "newsCount": 279,
+  "researchCount": 176,
   "engineeringCount": 25,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-10-08T07:28:32+00:00",
-  "lastSuccessfulDay": "2026-10-08",
-  "newsSnapshot": "2026-10-08",
-  "researchSnapshot": "2026-10-08",
+  "checkedAt": "2026-10-09T07:26:56+00:00",
+  "lastSuccessfulDay": "2026-10-09",
+  "newsSnapshot": "2026-10-09",
+  "researchSnapshot": "2026-10-09",
   "sourceCounts": {
-    "News": 274,
-    "Research": 173,
+    "News": 277,
+    "Research": 175,
     "Engineering": 25,
     "alignment": 43,
     "economics": 21,
     "interpretability": 34,
     "societal-impacts": 25,
-    "frontier-red-team": 29,
-    "science": 12
+    "frontier-red-team": 30,
+    "science": 13
   },
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "claude-haiku-5-5"
+    "2026-usage-policy-update",
+    "genesis-mission-commitment",
+    "anthropic-cyber-mission",
+    "the-missing-map-of-the-sky",
+    "launching-opt-in-vuln-finding-service-for-open-source"
   ]
 }

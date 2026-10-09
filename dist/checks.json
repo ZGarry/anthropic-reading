@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-09",
+    "status": "success",
+    "checkedAt": "2026-10-09T07:26:56+00:00",
+    "attempts": 1,
+    "newIds": [
+      "2026-usage-policy-update",
+      "anthropic-cyber-mission",
+      "genesis-mission-commitment",
+      "launching-opt-in-vuln-finding-service-for-open-source",
+      "the-missing-map-of-the-sky"
+    ],
+    "total": 461,
+    "error": null
+  },
+  {
     "date": "2026-10-08",
     "status": "success",
     "checkedAt": "2026-10-08T07:28:32+00:00",
