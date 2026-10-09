@@ -37,6 +37,14 @@
       <div class="local-tools"><button type="button" id="export-progress">导出进度备份</button><button type="button" id="import-progress">导入进度备份</button><button type="button" id="connect-backup-file">连接自动备份文件</button><input id="backup-file" type="file" accept="application/json,.json" hidden><span>勾选即保存 · 阅读日期按日记录</span></div>
       <p id="backup-message" role="status" aria-live="polite">备份可存到电脑；导入时保留每篇文章较新的修改。</p>
       <p id="file-backup-note" role="status" aria-live="polite">连接一个本地 JSON 文件后，后续勾选会自动写入备份。</p>
+      <details id="backup-details" class="backup-details">
+        <summary>查看阅读记录与备份内容</summary>
+        <p><strong>保存位置：当前浏览器。</strong>目录的每日更新不会上传你的阅读进度。云端备份需要另外保存；清理浏览器或换设备前，请先保留备份。</p>
+        <p id="backup-summary" role="status"></p>
+        <label for="backup-json">完整进度备份（可复制保存为 JSON 文件，再通过“导入进度备份”恢复）</label>
+        <textarea id="backup-json" readonly rows="6" spellcheck="false"></textarea>
+        <button type="button" id="copy-backup">复制完整备份</button><span id="copy-backup-status" role="status"></span>
+      </details>
     </section>
     <div class="update-strip"><span id="checked-at"></span><button type="button" id="show-new" aria-pressed="false">新增未读</button></div>
     <details class="daily-checks"><summary>每日核对记录 <span id="check-health"></span></summary><p>每天北京时间 09:17 由 GitHub 脚本核对；按完整列表去重补收，不调用 AI。调度可能延迟。</p><div id="daily-check-list"></div><a href="https://github.com/ZGarry/anthropic-reading/actions" target="_blank" rel="noopener noreferrer">查看抓取运行记录</a></details>

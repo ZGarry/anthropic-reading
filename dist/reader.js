@@ -31,6 +31,12 @@
   $('check-health').classList.toggle('check-warning',latest?.status==='failed'||stale);
   $('daily-check-list').innerHTML=checks.slice(0,30).map(c=>`<div class="check-row"><time>${escape(c.date)}</time><span>${c.status==='success'?'成功':'失败'}</span><span>新增收录 ${c.newIds.length} 篇</span><small>${c.attempts} 次核对</small></div>`).join('')||'<p>尚无每日核对记录。</p>';
   function announce(message){$('backup-message').textContent=message;}
+  function refreshBackupDetails(){
+    if(!$('backup-details').open)return;
+    const payload=P.backup(state,articles),done=articles.filter(a=>state.entries[a.id]?.read).length;
+    $('backup-json').value=JSON.stringify(payload,null,2);
+    $('backup-summary').textContent=`已读 ${done} 篇 / 共 ${articles.length} 篇 · 备份生成于 ${new Date(payload.exportedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})}（北京时间）`;
+  }
   function save(){
     read=new Set(state.readIds);
     try{localStorage.setItem(key,JSON.stringify(state));$('storage-note').textContent='已读状态自动保存在此浏览器。';}
@@ -84,6 +90,7 @@
     const newUnread=articles.filter(a=>a.addedOn&&!read.has(a.id)).length;
     $('show-new').textContent=`新增未读 ${newUnread} 篇`;
     $('show-new').setAttribute('aria-pressed',$('new-filter').value==='new');
+    refreshBackupDetails();
     if(observer)observer.disconnect();
     if('IntersectionObserver'in window){observer=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting)document.querySelectorAll('.year-link').forEach(a=>a.classList.toggle('active',a.hash==='#'+e.target.id));},{rootMargin:'-15% 0px -65% 0px'});document.querySelectorAll('.year-section').forEach(e=>observer.observe(e));}
   }
@@ -102,6 +109,12 @@
     announce('已生成备份下载，包含已读、未读和完成时间。换浏览器时可导入恢复。');
   });
   $('import-progress').addEventListener('click',()=>$('backup-file').click());
+  $('backup-details').addEventListener('toggle',()=>{if($('backup-details').open){reloadState();read=new Set(state.readIds);render();}});
+  $('copy-backup').addEventListener('click',async()=>{
+    reloadState();refreshBackupDetails();
+    try{await navigator.clipboard.writeText($('backup-json').value);$('copy-backup-status').textContent='已复制，请粘贴保存到你的备份文件。';}
+    catch(_){$('backup-json').focus();$('backup-json').select();$('copy-backup-status').textContent='已选中备份内容，请手动复制。';}
+  });
   $('backup-file').addEventListener('change',async e=>{
     const file=e.target.files[0];if(!file)return;
     try{
