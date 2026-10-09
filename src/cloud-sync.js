@@ -60,8 +60,23 @@ async function start(nextUser){
 $('cloud-login').addEventListener('click',async()=>{
   if(!auth)return;
   $('cloud-login').disabled=true;
+  status('signing-in','正在打开 Google 登录窗口…');
   try{const provider=new GoogleAuthProvider();provider.setCustomParameters({prompt:'select_account'});await signInWithPopup(auth,provider);}
-  catch(error){const messages={'auth/popup-blocked':'请允许登录弹窗，或在 Chrome 中打开此网页后再试','auth/popup-closed-by-user':'已取消登录，阅读记录仍保存在本机','auth/unauthorized-domain':'本站登录域名尚未启用，请联系站点维护者','auth/operation-not-allowed':'Google 登录尚未启用，请联系站点维护者'};status('error');$('cloud-status').textContent=messages[error.code]||'Google 登录未完成，请检查网络后重试';}
+  catch(error){
+    const messages={
+      'auth/popup-blocked':'请允许登录弹窗，或在 Chrome 中打开此网页后再试',
+      'auth/popup-closed-by-user':'已取消登录，阅读记录仍保存在本机',
+      'auth/cancelled-popup-request':'登录窗口已被另一次登录取代，请完成最新的窗口',
+      'auth/unauthorized-domain':'本站登录域名尚未启用，请联系站点维护者',
+      'auth/operation-not-allowed':'Google 登录尚未启用，请联系站点维护者',
+      'auth/network-request-failed':'无法连接 Google 登录服务，请检查网络后重试',
+      'auth/web-storage-unsupported':'浏览器无法保存登录信息，请允许本站存储或使用 Chrome',
+      'auth/operation-not-supported-in-this-environment':'当前浏览器不支持此登录方式，请在 Chrome 中打开网页',
+      'auth/internal-error':'Google 登录窗口未能完成，请在 Chrome 中打开网页重试'
+    };
+    const code=/^auth\/[a-z-]+$/.test(error?.code)?error.code:null;
+    status('error');$('cloud-status').textContent=(messages[code]||'Google 登录未完成，请重试')+(code?'（'+code+'）':'');
+  }
   finally{$('cloud-login').disabled=false;}
 });
 $('cloud-logout').addEventListener('click',async()=>{
