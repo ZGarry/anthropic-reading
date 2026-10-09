@@ -2,8 +2,8 @@
   {
     "date": "2026-10-09",
     "status": "success",
-    "checkedAt": "2026-10-09T15:07:50+00:00",
-    "attempts": 5,
+    "checkedAt": "2026-10-09T15:37:50+00:00",
+    "attempts": 6,
     "newIds": [
       "2026-usage-policy-update",
       "anthropic-cyber-mission",

@@ -117,6 +117,28 @@
         "claude-fable-and-mythos-5-1",
         "threat-intelligence-report-september-2026"
       ]
+    },
+    {
+      "status": "success",
+      "checkedAt": "2026-10-09T15:37:50+00:00",
+      "total": 461,
+      "newIds": [],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 277,
+        "Research": 174,
+        "Engineering": 25,
+        "alignment": 43,
+        "economics": 21,
+        "interpretability": 34,
+        "societal-impacts": 25,
+        "frontier-red-team": 30,
+        "science": 13
+      },
+      "noLongerListed": [
+        "claude-fable-and-mythos-5-1",
+        "threat-intelligence-report-september-2026"
+      ]
     }
   ]
 }
