@@ -27,6 +27,11 @@
       <div><div class="eyebrow">READING ARCHIVE <span>2021 — 2026</span></div><h1>Anthropic<br class="mobile-break"> 阅读目录</h1><p class="intro" id="intro">News、Research 与 Engineering · 已去重</p><p class="news-note" id="news-progress">阅读进度保存在当前浏览器</p></div>
       <div class="total"><strong id="total-count">443</strong><span>篇文章</span></div>
     </header>
+    <section class="cloud-panel" aria-label="账号与云端同步">
+      <div><h2>阅读记录随账号保存</h2><span id="cloud-account">尚未登录</span><p id="cloud-status" role="status" aria-live="polite">正在检查云端登录服务…</p></div>
+      <div class="cloud-actions"><button type="button" id="cloud-login" disabled>使用 Google 账号登录</button><button type="button" id="cloud-retry" hidden>重新同步</button><button type="button" id="cloud-logout" hidden>退出登录</button></div>
+      <div id="cloud-migration" hidden><p>本机有 <strong id="migration-count">0</strong> 篇已读记录。是否合并到上方 Google 账号？云端已有记录会保留较新的修改。</p><button type="button" id="migrate-local">合并本机记录并同步</button><button type="button" id="skip-migration">只使用此账号的记录</button></div>
+    </section>
     <section class="reading-controls" aria-label="分类阅读与本地备份">
       <div class="category-heading"><h2>选择栏目</h2><span>栏目内可继续按类别筛选</span></div>
       <div id="source-buttons" class="source-buttons" role="group" aria-label="栏目目录"></div>
@@ -39,7 +44,7 @@
       <p id="file-backup-note" role="status" aria-live="polite">连接一个本地 JSON 文件后，后续勾选会自动写入备份。</p>
       <details id="backup-details" class="backup-details">
         <summary>查看阅读记录与备份内容</summary>
-        <p><strong>保存位置：当前浏览器。</strong>目录的每日更新不会上传你的阅读进度。云端备份需要另外保存；清理浏览器或换设备前，请先保留备份。</p>
+        <p><strong id="backup-location">保存位置：当前浏览器。</strong>登录后的云端保存结果以上方同步状态为准。这里可以额外保留一份完整备份，换账号时不会自动合并记录。</p>
         <p id="backup-summary" role="status"></p>
         <label for="backup-json">完整进度备份（可复制保存为 JSON 文件，再通过“导入进度备份”恢复）</label>
         <textarea id="backup-json" readonly rows="6" spellcheck="false"></textarea>
@@ -59,12 +64,15 @@
     <div id="articles" tabindex="-1"></div>
     <div id="empty" hidden><span class="empty-number">0</span><h2>没有符合条件的文章</h2><p>试试其他关键词，或清除筛选。</p><button id="clear-filters" type="button">清除筛选</button></div>
     <noscript><p>请启用 JavaScript，以显示完整文章目录。</p></noscript>
-    <footer class="footer"><div><strong>关于目录与记录</strong><p>核对 News、Research 总表、五个研究团队、Science 与 Engineering。分类沿用官网标签及团队归属，文章可属于多个类别。新增收录也可能是补收的旧文，始终按原发布日期排序。个人进度保存在此浏览器和你授权的本地备份文件中，不会上传到公开仓库。迁移旧目录时请导入原有进度备份；不同设备之间通过备份迁移。勾选表示读完，打开链接不会自动标记。外部独立博客和论文库尚未纳入自动核对。</p></div><a href="https://github.com/ZGarry/anthropic-reading" target="_blank" rel="noopener noreferrer">GitHub 源码</a></footer>
+    <footer class="footer"><div><strong>关于目录与记录</strong><p>核对 News、Research 总表、五个研究团队、Science 与 Engineering。分类沿用官网标签及团队归属，文章可属于多个类别。新增收录也可能是补收的旧文，始终按原发布日期排序。进度自动保存在此浏览器；Google 登录和云服务启用后，同一账号的记录会自动跨设备同步，保存结果以上方状态为准。个人记录不会上传到公开仓库。也可导出文件备份。勾选表示读完，打开链接不会自动标记。外部独立博客和论文库尚未纳入自动核对。</p></div><a href="https://github.com/ZGarry/anthropic-reading" target="_blank" rel="noopener noreferrer">GitHub 源码</a></footer>
   </main>
   <script src="catalog.js"></script>
   <script src="checks.js"></script>
   <script src="progress.js"></script>
+  <script src="cloud-model.js"></script>
   <script src="file-backup.js"></script>
   <script src="reader.js"></script>
+  <script src="firebase-config.js"></script>
+  <script type="module" src="cloud-sync.js"></script>
 </body>
 </html>

@@ -3,7 +3,8 @@
   const articles=window.ARTICLES,meta=window.CATALOG_META,P=window.ReadingProgress;
   const names={alignment:'对齐',interpretability:'可解释性',economics:'经济','societal-impacts':'社会影响','frontier-red-team':'前沿红队',science:'科学',engineering:'工程',other:'其他研究',announcements:'公告',product:'产品',policy:'政策',education:'教育',events:'活动','beneficial-deployments':'公益应用','case-studies':'案例',features:'专题',research:'综合研究',evaluations:'评测'};
   const sourceNames={all:'全部栏目',News:'News 新闻',Research:'Research 研究',Engineering:'Engineering 工程'};
-  const key='anthropic-reading-catalog-v2',prefsKey='anthropic-reading-preferences-v1';
+  const guestKey='anthropic-reading-catalog-v2',prefsKey='anthropic-reading-preferences-v1';
+  let key=guestKey,accountLoading=false,localSaved=true;
   const $=id=>document.getElementById(id);
   const escape=text=>String(text).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const storageGet=k=>{try{return localStorage.getItem(k);}catch(_){return null;}};
@@ -37,15 +38,16 @@
     $('backup-json').value=JSON.stringify(payload,null,2);
     $('backup-summary').textContent=`已读 ${done} 篇 / 共 ${articles.length} 篇 · 备份生成于 ${new Date(payload.exportedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})}（北京时间）`;
   }
-  function save(){
+  function save({notifyCloud=true,writeFile=true}={}){
     read=new Set(state.readIds);
-    try{localStorage.setItem(key,JSON.stringify(state));$('storage-note').textContent='已读状态自动保存在此浏览器。';}
-    catch(_){$('storage-note').textContent='浏览器无法保存，请导出备份。';announce('本次修改仅在页面中保留，请立即导出备份。');}
-    void window.ReadingFileBackup?.write();
+    try{localStorage.setItem(key,JSON.stringify(state));localSaved=true;$('storage-note').textContent='已读状态自动保存在此浏览器。';}
+    catch(_){localSaved=false;$('storage-note').textContent='浏览器无法保存，请导出备份。';announce('本次修改仅在页面中保留，请立即导出备份。');}
+    if(writeFile)void window.ReadingFileBackup?.write();
+    if(notifyCloud)window.dispatchEvent(new Event('reading-progress-changed'));
   }
   function prefs(){try{localStorage.setItem(prefsKey,JSON.stringify(Object.fromEntries(['source','category','read-filter','sort','new-filter'].map(id=>[id,$(id).value]))));}catch(_){} }
-  function reloadState(){state=P.initialize(articles,storageGet(key)||JSON.stringify(state),null,meta.readBatch);}
-  function mark(ids,done){reloadState();for(const id of ids)P.setRead(state,id,done);save();render();}
+  function reloadState(){const saved=P.initialize(articles,storageGet(key),null,meta.readBatch);state=window.CloudProgress.merge(state,saved);}
+  function mark(ids,done){if(accountLoading){announce('正在确认登录账号，请稍候再标记。');return;}reloadState();for(const id of ids)P.setRead(state,id,done,Math.max(Date.now(),(state.entries[id]?.updatedAt||0)+1));save();render();}
   function scope(a){return ($('source').value==='all'||a.sources.includes($('source').value))&&($('category').value==='all'||a.categories.includes($('category').value));}
   function matches(a){
     const query=$('search').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
@@ -91,6 +93,7 @@
     $('show-new').textContent=`新增未读 ${newUnread} 篇`;
     $('show-new').setAttribute('aria-pressed',$('new-filter').value==='new');
     refreshBackupDetails();
+    document.querySelectorAll('[data-read]').forEach(input=>input.disabled=accountLoading);
     if(observer)observer.disconnect();
     if('IntersectionObserver'in window){observer=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting)document.querySelectorAll('.year-link').forEach(a=>a.classList.toggle('active',a.hash==='#'+e.target.id));},{rootMargin:'-15% 0px -65% 0px'});document.querySelectorAll('.year-section').forEach(e=>observer.observe(e));}
   }
@@ -116,17 +119,28 @@
     catch(_){$('backup-json').focus();$('backup-json').select();$('copy-backup-status').textContent='已选中备份内容，请手动复制。';}
   });
   $('backup-file').addEventListener('change',async e=>{
-    const file=e.target.files[0];if(!file)return;
+    const file=e.target.files[0],importKey=key;if(!file)return;
     try{
       if(file.size>8*1024*1024)throw new Error('备份文件过大，未导入。');
-      const payload=JSON.parse(await file.text());reloadState();
+      if(accountLoading)throw new Error('正在确认登录账号，请稍候再导入。');
+      const payload=JSON.parse(await file.text());
+      if(accountLoading||importKey!==key)throw new Error('导入期间账号已切换，文件未导入。请在目标账号下重新选择备份。');
+      reloadState();
       const result=P.mergeBackup(state,payload);state=result.state;save();render();
       announce(`已合并备份，更新 ${result.changed} 条记录；相同文章保留较新的修改。`);
     }catch(error){announce(error instanceof SyntaxError?'文件不是有效 JSON，原有记录未改动。':error.message);}finally{e.target.value='';}
   });
-  window.addEventListener('storage',event=>{if(event.key===key&&event.newValue){state=P.initialize(articles,event.newValue,null,meta.readBatch);read=new Set(state.readIds);render();}});
+  window.addEventListener('storage',event=>{if(event.key===key&&event.newValue){reloadState();read=new Set(state.readIds);render();window.dispatchEvent(new Event('reading-progress-changed'));}});
+  window.ReadingAccount={
+    isLocalSaved(){return localSaved;},
+    getState(){reloadState();return structuredClone(state);},
+    getGuestState(){return P.initialize(articles,storageGet(guestKey),storageGet('anthropic-reading-188-v1'),meta.readBatch);},
+    activate(uid){key=window.CloudProgress.accountKey(uid);state=P.initialize(articles,storageGet(key),uid?null:storageGet('anthropic-reading-188-v1'),meta.readBatch);save({notifyCloud:false,writeFile:false});render();void window.ReadingFileBackup.setScope(key);$('backup-location').textContent=uid?'保存位置：此账号的本机缓存与私有云端（以同步状态为准）。':'保存位置：当前浏览器。';},
+    mergeCloudState(incoming){reloadState();state=window.CloudProgress.merge(state,incoming);save({notifyCloud:false});render();},
+    setLoading(value){accountLoading=value;render();}
+  };
   save();render();
-  window.ReadingFileBackup.initialize({getBackup:()=>P.backup(state,articles),mergeBackup:payload=>{reloadState();state=P.mergeBackup(state,payload).state;save();render();}});
+  window.ReadingFileBackup.initialize({scope:key,getBackup:()=>P.backup(state,articles),mergeBackup:payload=>{reloadState();state=P.mergeBackup(state,payload).state;save();render();}});
   if(document.modelContext?.registerTool){
     const lifecycle=new AbortController();window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true});
     try{void Promise.resolve(document.modelContext.registerTool({name:'set_article_read_status',title:'设置文章已读状态',description:'按目录文章编号批量设置已读或未读，并自动保存在当前浏览器。编号会随目录新增而变化，请先核对当前编号。',inputSchema:{type:'object',properties:{article_numbers:{type:'array',items:{type:'integer',minimum:1,maximum:articles.length},minItems:1,maxItems:articles.length,uniqueItems:true},read:{type:'boolean'}},required:['article_numbers','read'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input){if(!input||typeof input!=='object'||Object.keys(input).some(k=>!['article_numbers','read'].includes(k))||typeof input.read!=='boolean'||!Array.isArray(input.article_numbers)||!input.article_numbers.length||input.article_numbers.length>articles.length||new Set(input.article_numbers).size!==input.article_numbers.length||!input.article_numbers.every(n=>Number.isInteger(n)&&n>=1&&n<=articles.length))throw new Error('请提供有效且不重复的文章编号和 read 布尔值。');const selected=input.article_numbers.map(n=>articles.find(a=>a.number===n));mark(selected.map(a=>a.id),input.read);return{updated:selected.map(a=>({number:a.number,title:a.title,read:input.read})),totalRead:articles.filter(a=>read.has(a.id)).length};}},{signal:lifecycle.signal})).catch(()=>{});}catch(_){}

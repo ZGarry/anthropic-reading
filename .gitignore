@@ -6,3 +6,6 @@ backups/
 *reading-progress*.json
 *confirmed-progress*.json
 *.tmp
+node_modules/
+*-debug.log
+.firebase/

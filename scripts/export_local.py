@@ -5,8 +5,9 @@ p=argparse.ArgumentParser();p.add_argument('--output-dir',default=str(root/'expo
 out=Path(args.output_dir);out.mkdir(parents=True,exist_ok=True)
 dist=root/'dist';html=(dist/'index.html').read_text(encoding='utf-8')
 html=html.replace('<link rel="stylesheet" href="style.css">','<style>'+(dist/'style.css').read_text(encoding='utf-8')+'</style>')
-for name in ['catalog.js','checks.js','progress.js','file-backup.js','reader.js']:
+for name in ['catalog.js','checks.js','progress.js','cloud-model.js','file-backup.js','reader.js']:
     content=(dist/name).read_text(encoding='utf-8').replace('</script','<\\/script')
     html=html.replace(f'<script src="{name}"></script>','<script>'+content+'</script>')
+html=html.replace('<script src="firebase-config.js"></script>','').replace('<script type="module" src="cloud-sync.js"></script>','<script>document.getElementById("cloud-status").textContent="离线文件使用本地记录；云同步请打开 GitHub 网页。";</script>')
 (out/'Anthropic-reading-github-local.html').write_text(html,encoding='utf-8')
 print('Standalone HTML saved')

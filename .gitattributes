@@ -1,0 +1,3 @@
+# Generated vendor bundle contains whitespace inside template literals.
+dist/cloud-sync.js -whitespace linguist-generated=true
+dist/cloud-sync.js.LEGAL.txt -whitespace linguist-generated=true

@@ -1,0 +1,7 @@
+{
+  "indexes": [],
+  "fieldOverrides": [
+    {"collectionGroup":"progress","fieldPath":"entries","indexes":[]},
+    {"collectionGroup":"daily","fieldPath":"entries","indexes":[]}
+  ]
+}

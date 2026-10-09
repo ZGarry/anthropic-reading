@@ -1,0 +1,25 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function owner(uid) {
+      return request.auth != null && request.auth.uid == uid
+        && request.auth.token.firebase.sign_in_provider == 'google.com';
+    }
+    function validProgress() {
+      return request.resource.data.keys().hasAll(['schema', 'entries', 'savedAt'])
+        && request.resource.data.keys().hasOnly(['schema', 'entries', 'savedAt'])
+        && request.resource.data.schema == 1
+        && request.resource.data.entries is map
+        && request.resource.data.entries.size() <= 5000
+        && request.resource.data.savedAt == request.time;
+    }
+    match /users/{uid}/progress/{record} {
+      allow read: if owner(uid) && record == 'current';
+      allow create, update: if owner(uid) && record == 'current' && validProgress();
+    }
+    match /users/{uid}/daily/{day} {
+      allow read: if owner(uid);
+      allow create, update: if owner(uid) && day.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$') && validProgress();
+    }
+  }
+}
