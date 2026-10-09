@@ -24,6 +24,8 @@
 
 ## 本地运行
 
+需要 Node.js 24.12+ 和 Python 3.12+。
+
 ```sh
 python -m pip install -r requirements.txt
 npm ci
