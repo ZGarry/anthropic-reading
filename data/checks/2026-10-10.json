@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-10-10T07:13:33+00:00",
+      "total": 462,
+      "newIds": [
+        "investigating-unintended-model-actions"
+      ],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 277,
+        "Research": 175,
+        "Engineering": 25,
+        "alignment": 44,
+        "economics": 21,
+        "interpretability": 34,
+        "societal-impacts": 25,
+        "frontier-red-team": 30,
+        "science": 13
+      },
+      "noLongerListed": [
+        "claude-fable-and-mythos-5-1",
+        "threat-intelligence-report-september-2026"
+      ]
+    }
+  ]
+}

@@ -7042,5 +7042,21 @@
     "addedOn": "2026-10-09",
     "number": 461,
     "source": "Research"
+  },
+  {
+    "id": "investigating-unintended-model-actions",
+    "title": "Investigating unintended model actions in our evaluations and internal use",
+    "date": "2026-10-09",
+    "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+    "categories": [
+      "alignment"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-10",
+    "number": 462,
+    "source": "Research"
   }
 ]
