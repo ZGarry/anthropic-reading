@@ -1,10 +1,8 @@
 {
   "status": "success",
-  "checkedAt": "2026-10-10T07:13:33+00:00",
+  "checkedAt": "2026-10-11T07:16:35+00:00",
   "total": 462,
-  "newIds": [
-    "investigating-unintended-model-actions"
-  ],
+  "newIds": [],
   "changedIds": [],
   "sourceCounts": {
     "News": 277,
