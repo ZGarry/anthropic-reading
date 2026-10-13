@@ -22,7 +22,7 @@ jobs:
     permissions:
       contents: write
     outputs:
-      refresh_failed: ${{ steps.refresh.outcome == 'failure' }}
+      refresh_failed: ${{ steps.refresh.outcome == 'failure' || steps.sam_refresh.outcome == 'failure' }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -60,13 +60,17 @@ jobs:
         id: refresh
         continue-on-error: true
         run: python scripts/refresh_catalog.py
+      - name: Check every Sam Altman blog page
+        id: sam_refresh
+        continue-on-error: true
+        run: python scripts/refresh_sam.py
       - name: Validate refreshed catalogue
         run: node scripts/check_progress.cjs
       - name: Commit daily record and catalogue
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data dist/catalog.js dist/catalog-meta.json dist/checks.js dist/checks.json
+          git add data dist/catalog.js dist/catalog-meta.json dist/checks.js dist/checks.json dist/sam/catalog.js dist/sam/catalog-meta.json dist/sam/checks.js dist/sam/checks.json
           if ! git diff --cached --quiet; then
             git commit -m "Daily source check $(TZ=Asia/Shanghai date +%F)"
             git push origin HEAD:main

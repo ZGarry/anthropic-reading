@@ -1,5 +1,13 @@
 # Anthropic 阅读目录
 
+## Sam Altman 博客阅读目录
+
+入口：https://zgarry.github.io/anthropic-reading/sam/ 。两个阅读目录可在顶部切换，沿用已启用的 Google 登录与私有 Firestore 同步，分别统计已读。未登录时也共用同一份本机记录；JSON 备份包含两个目录的进度。Sam 使用 `sam-post-<Posthaven ID>`，原标题、链接、编号或目录变动不会覆盖 Anthropic 记录。
+
+`python scripts/refresh_sam.py` 遍历博客全部公开分页，仅保存标题、原文链接、日期与稳定 ID。发布日期取原站时间戳的 UTC 日期。主题按标题关键词及明确标题整理，非官方分类；`-` 标题保留原样。范围仅为 `blog.samaltman.com`，未包含外部独立网站文章。
+
+沿用下面的每日 09:17 核对及 GitHub Pages 发布流程。两组来源独立检查，一组失败不妨碍另一组更新，原有目录会保留；核对记录在各自页面显示。分页不完整、重复 ID、抓取期间新增文章或数量异常下降均中止替换。新增与补收都保留未读，官网删除的旧条目不会自动删除。
+
 按类别筛选，再按原发布日期从早到晚阅读。收录 News、Research、研究团队、Science 与 Engineering 官方列表；自动合并重复文章，保留原文链接。
 
 ## 每日更新

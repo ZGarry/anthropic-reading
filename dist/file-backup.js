@@ -34,7 +34,7 @@
       const saved=await stored(null,selectedScope);if(turn!==epoch)return;
       let selected=saved;
       if(saved){if(await saved.requestPermission({mode:'readwrite'})!=='granted'){if(turn===epoch)note('未获文件写入权限，浏览器仍会保存进度。');return;}}
-      else selected=await window.showSaveFilePicker({suggestedName:'Anthropic-reading-progress.json',types:[{description:'阅读进度备份',accept:{'application/json':['.json']}}]});
+      else selected=await window.showSaveFilePicker({suggestedName:(window.READING_DIRECTORY?.backupName||'Anthropic')+'-reading-progress.json',types:[{description:'阅读进度备份',accept:{'application/json':['.json']}}]});
       const file=await selected.getFile(),payload=file.size?JSON.parse(await file.text()):null;
       if(turn!==epoch)return;
       if(payload)mergeBackup(payload);handle=selected;await stored(handle,selectedScope);await write();

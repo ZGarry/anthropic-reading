@@ -1,9 +1,10 @@
 (() => {
   'use strict';
   const articles=window.ARTICLES,meta=window.CATALOG_META,P=window.ReadingProgress;
-  const names={alignment:'对齐',interpretability:'可解释性',economics:'经济','societal-impacts':'社会影响','frontier-red-team':'前沿红队',science:'科学',engineering:'工程',other:'其他研究',announcements:'公告',product:'产品',policy:'政策',education:'教育',events:'活动','beneficial-deployments':'公益应用','case-studies':'案例',features:'专题',research:'综合研究',evaluations:'评测'};
-  const sourceNames={all:'全部栏目',News:'News 新闻',Research:'Research 研究',Engineering:'Engineering 工程'};
-  const guestKey='anthropic-reading-catalog-v2',prefsKey='anthropic-reading-preferences-v1';
+  const directory=window.READING_DIRECTORY||{};
+  const names=directory.topics||{alignment:'对齐',interpretability:'可解释性',economics:'经济','societal-impacts':'社会影响','frontier-red-team':'前沿红队',science:'科学',engineering:'工程',other:'其他研究',announcements:'公告',product:'产品',policy:'政策',education:'教育',events:'活动','beneficial-deployments':'公益应用','case-studies':'案例',features:'专题',research:'综合研究',evaluations:'评测'};
+  const sourceNames=directory.sources||{all:'全部栏目',News:'News 新闻',Research:'Research 研究',Engineering:'Engineering 工程'};
+  const guestKey='anthropic-reading-catalog-v2',prefsKey=directory.prefsKey||'anthropic-reading-preferences-v1';
   let key=guestKey,accountLoading=false,localSaved=true;
   const $=id=>document.getElementById(id);
   const escape=text=>String(text).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -18,11 +19,12 @@
       if([...$(id).options].some(o=>o.value===prefs[id]))$(id).value=prefs[id];
     }
   }catch(_){}
-  document.title=`Anthropic 阅读目录 · ${articles.length} 篇`;
+  document.title=`${directory.title||'Anthropic 阅读目录'} · ${articles.length} 篇`;
   $('total-count').textContent=articles.length;
   $('progress-total').textContent=articles.length;
   $('progress').max=articles.length;
-  $('intro').textContent=`Research ${meta.researchCount} · Engineering ${meta.engineeringCount} · News ${meta.newsCount} · 重合文章已合并`;
+  $('intro').textContent=directory.intro?directory.intro(meta):`Research ${meta.researchCount} · Engineering ${meta.engineeringCount} · News ${meta.newsCount} · 重合文章已合并`;
+  if(directory.title)document.querySelector('.eyebrow span').textContent=`${meta.firstDate.slice(0,4)} — ${meta.lastDate.slice(0,4)}`;
   const lastDay=meta.lastSuccessfulDay||new Date(meta.checkedAt).toLocaleDateString('sv-SE',{timeZone:'Asia/Shanghai'});
   $('checked-at').textContent=`最近成功核对：${lastDay}（北京时间）`;
   const checks=window.DAILY_CHECKS||[],latest=checks[0];
@@ -78,7 +80,7 @@
     $('read-count').textContent=articles.filter(a=>read.has(a.id)).length;
     $('progress').value=Number($('read-count').textContent);
     const newsRead=articles.filter(a=>a.sources.includes('News')&&read.has(a.id)).length;
-    $('news-progress').textContent=`News 已读 ${newsRead} / ${meta.newsCount} · 新文章保留未读`;
+    $('news-progress').textContent=directory.progressText?directory.progressText(articles.filter(a=>read.has(a.id)).length,articles.length):`News 已读 ${newsRead} / ${meta.newsCount} · 新文章保留未读`;
     $('source-buttons').innerHTML=Object.entries(sourceNames).map(([source,label])=>{
       const subset=articles.filter(a=>source==='all'||a.sources.includes(source));
       const pending=subset.filter(a=>!read.has(a.id)).length;
@@ -123,7 +125,7 @@
   $('export-progress').addEventListener('click',()=>{
     reloadState();
     const payload=P.backup(state,articles),blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob);
-    const link=document.createElement('a');link.href=url;link.download=`Anthropic-reading-progress-${new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Shanghai'})}.json`;document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    const link=document.createElement('a');link.href=url;link.download=`${directory.backupName||'Anthropic'}-reading-progress-${new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Shanghai'})}.json`;document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
     announce('已生成备份下载，包含已读、未读和完成时间。换浏览器时可导入恢复。');
   });
   $('import-progress').addEventListener('click',()=>$('backup-file').click());
