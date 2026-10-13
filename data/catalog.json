@@ -7058,5 +7058,37 @@
     "addedOn": "2026-10-10",
     "number": 462,
     "source": "Research"
+  },
+  {
+    "id": "distillation-defenses",
+    "title": "Strengthening our defenses against distillation attacks",
+    "date": "2026-10-12",
+    "url": "https://www.anthropic.com/research/distillation-defenses",
+    "categories": [
+      "other"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-13",
+    "number": 463,
+    "source": "Research"
+  },
+  {
+    "id": "self-replicating-ai",
+    "title": "AI models may be capable of self-replicating without access to a datacenter",
+    "date": "2026-10-12",
+    "url": "https://www.anthropic.com/research/self-replicating-ai",
+    "categories": [
+      "frontier-red-team"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-13",
+    "number": 464,
+    "source": "Research"
   }
 ]

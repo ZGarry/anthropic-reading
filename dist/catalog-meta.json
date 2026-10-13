@@ -1,27 +1,28 @@
 {
-  "total": 462,
+  "total": 464,
   "newsCount": 279,
-  "researchCount": 177,
+  "researchCount": 179,
   "engineeringCount": 25,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-10-12T07:26:33+00:00",
-  "lastSuccessfulDay": "2026-10-12",
-  "newsSnapshot": "2026-10-12",
-  "researchSnapshot": "2026-10-12",
+  "checkedAt": "2026-10-13T06:24:26+00:00",
+  "lastSuccessfulDay": "2026-10-13",
+  "newsSnapshot": "2026-10-13",
+  "researchSnapshot": "2026-10-13",
   "sourceCounts": {
     "News": 277,
-    "Research": 175,
+    "Research": 177,
     "Engineering": 25,
     "alignment": 44,
     "economics": 21,
     "interpretability": 34,
     "societal-impacts": 25,
-    "frontier-red-team": 30,
+    "frontier-red-team": 31,
     "science": 13
   },
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "investigating-unintended-model-actions"
+    "self-replicating-ai",
+    "distillation-defenses"
   ]
 }

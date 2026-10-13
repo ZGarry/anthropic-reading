@@ -143,5 +143,13 @@
       "investigating-unintended-model-actions"
     ],
     "changedIds": []
+  },
+  {
+    "checkedAt": "2026-10-13T06:24:26+00:00",
+    "newIds": [
+      "self-replicating-ai",
+      "distillation-defenses"
+    ],
+    "changedIds": []
   }
 ]

@@ -1,18 +1,21 @@
 {
   "status": "success",
-  "checkedAt": "2026-10-12T07:26:33+00:00",
-  "total": 462,
-  "newIds": [],
+  "checkedAt": "2026-10-13T06:24:26+00:00",
+  "total": 464,
+  "newIds": [
+    "self-replicating-ai",
+    "distillation-defenses"
+  ],
   "changedIds": [],
   "sourceCounts": {
     "News": 277,
-    "Research": 175,
+    "Research": 177,
     "Engineering": 25,
     "alignment": 44,
     "economics": 21,
     "interpretability": 34,
     "societal-impacts": 25,
-    "frontier-red-team": 30,
+    "frontier-red-team": 31,
     "science": 13
   },
   "noLongerListed": [
