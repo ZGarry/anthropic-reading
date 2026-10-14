@@ -1,13 +1,17 @@
 {
   "status": "success",
-  "checkedAt": "2026-10-13T07:47:22+00:00",
-  "total": 464,
-  "newIds": [],
-  "changedIds": [],
+  "checkedAt": "2026-10-14T06:12:12+00:00",
+  "total": 465,
+  "newIds": [
+    "redesigning-source-control"
+  ],
+  "changedIds": [
+    "distillation-defenses"
+  ],
   "sourceCounts": {
     "News": 277,
     "Research": 177,
-    "Engineering": 25,
+    "Engineering": 26,
     "alignment": 44,
     "economics": 21,
     "interpretability": 34,

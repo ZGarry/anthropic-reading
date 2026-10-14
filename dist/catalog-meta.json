@@ -1,17 +1,17 @@
 {
-  "total": 464,
+  "total": 465,
   "newsCount": 279,
   "researchCount": 179,
-  "engineeringCount": 25,
+  "engineeringCount": 26,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-10-13T07:47:22+00:00",
-  "lastSuccessfulDay": "2026-10-13",
-  "newsSnapshot": "2026-10-13",
-  "researchSnapshot": "2026-10-13",
+  "checkedAt": "2026-10-14T06:12:12+00:00",
+  "lastSuccessfulDay": "2026-10-14",
+  "newsSnapshot": "2026-10-14",
+  "researchSnapshot": "2026-10-14",
   "sourceCounts": {
     "News": 277,
     "Research": 177,
-    "Engineering": 25,
+    "Engineering": 26,
     "alignment": 44,
     "economics": 21,
     "interpretability": 34,
@@ -22,7 +22,6 @@
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "self-replicating-ai",
-    "distillation-defenses"
+    "redesigning-source-control"
   ]
 }

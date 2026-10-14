@@ -7065,7 +7065,7 @@
     "date": "2026-10-12",
     "url": "https://www.anthropic.com/research/distillation-defenses",
     "categories": [
-      "other"
+      "policy"
     ],
     "sources": [
       "Research"
@@ -7090,5 +7090,21 @@
     "addedOn": "2026-10-13",
     "number": 464,
     "source": "Research"
+  },
+  {
+    "id": "redesigning-source-control",
+    "title": "Redesigning source control at Anthropic",
+    "date": "2026-10-13",
+    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "categories": [
+      "engineering"
+    ],
+    "sources": [
+      "Engineering"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-14",
+    "number": 465,
+    "source": "Engineering"
   }
 ]
