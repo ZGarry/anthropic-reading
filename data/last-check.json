@@ -1,15 +1,14 @@
 {
   "status": "success",
-  "checkedAt": "2026-10-14T06:12:12+00:00",
-  "total": 465,
+  "checkedAt": "2026-10-15T05:56:43+00:00",
+  "total": 467,
   "newIds": [
-    "redesigning-source-control"
+    "2026-us-midterms",
+    "singapore-office-opening"
   ],
-  "changedIds": [
-    "distillation-defenses"
-  ],
+  "changedIds": [],
   "sourceCounts": {
-    "News": 277,
+    "News": 279,
     "Research": 177,
     "Engineering": 26,
     "alignment": 44,

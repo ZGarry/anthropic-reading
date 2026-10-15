@@ -1,15 +1,15 @@
 {
-  "total": 465,
-  "newsCount": 279,
+  "total": 467,
+  "newsCount": 281,
   "researchCount": 179,
   "engineeringCount": 26,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-10-14T06:12:12+00:00",
-  "lastSuccessfulDay": "2026-10-14",
-  "newsSnapshot": "2026-10-14",
-  "researchSnapshot": "2026-10-14",
+  "checkedAt": "2026-10-15T05:56:43+00:00",
+  "lastSuccessfulDay": "2026-10-15",
+  "newsSnapshot": "2026-10-15",
+  "researchSnapshot": "2026-10-15",
   "sourceCounts": {
-    "News": 277,
+    "News": 279,
     "Research": 177,
     "Engineering": 26,
     "alignment": 44,
@@ -22,6 +22,7 @@
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "redesigning-source-control"
+    "2026-us-midterms",
+    "singapore-office-opening"
   ]
 }

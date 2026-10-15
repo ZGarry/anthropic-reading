@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-10-15T05:56:43+00:00",
+      "total": 467,
+      "newIds": [
+        "2026-us-midterms",
+        "singapore-office-opening"
+      ],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 279,
+        "Research": 177,
+        "Engineering": 26,
+        "alignment": 44,
+        "economics": 21,
+        "interpretability": 34,
+        "societal-impacts": 25,
+        "frontier-red-team": 31,
+        "science": 13
+      },
+      "noLongerListed": [
+        "claude-fable-and-mythos-5-1",
+        "threat-intelligence-report-september-2026"
+      ]
+    }
+  ]
+}

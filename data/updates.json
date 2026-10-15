@@ -160,5 +160,13 @@
     "changedIds": [
       "distillation-defenses"
     ]
+  },
+  {
+    "checkedAt": "2026-10-15T05:56:43+00:00",
+    "newIds": [
+      "2026-us-midterms",
+      "singapore-office-opening"
+    ],
+    "changedIds": []
   }
 ]

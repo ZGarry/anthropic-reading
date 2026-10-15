@@ -7106,5 +7106,37 @@
     "addedOn": "2026-10-14",
     "number": 465,
     "source": "Engineering"
+  },
+  {
+    "id": "2026-us-midterms",
+    "title": "Preparing for the 2026 US midterms",
+    "date": "2026-10-14",
+    "url": "https://www.anthropic.com/news/2026-us-midterms",
+    "categories": [
+      "policy"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-15",
+    "number": 466,
+    "source": "News"
+  },
+  {
+    "id": "singapore-office-opening",
+    "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+    "date": "2026-10-14",
+    "url": "https://www.anthropic.com/news/singapore-office-opening",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-15",
+    "number": 467,
+    "source": "News"
   }
 ]
