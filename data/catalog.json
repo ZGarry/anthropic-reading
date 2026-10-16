@@ -7138,5 +7138,21 @@
     "addedOn": "2026-10-15",
     "number": 467,
     "source": "News"
+  },
+  {
+    "id": "an-update-on-independent-evaluators",
+    "title": "An update on independent evaluators",
+    "date": "2026-10-15",
+    "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-16",
+    "number": 468,
+    "source": "News"
   }
 ]

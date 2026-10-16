@@ -1,14 +1,13 @@
 {
   "status": "success",
-  "checkedAt": "2026-10-15T05:56:43+00:00",
-  "total": 467,
+  "checkedAt": "2026-10-16T05:54:50+00:00",
+  "total": 468,
   "newIds": [
-    "2026-us-midterms",
-    "singapore-office-opening"
+    "an-update-on-independent-evaluators"
   ],
   "changedIds": [],
   "sourceCounts": {
-    "News": 279,
+    "News": 280,
     "Research": 177,
     "Engineering": 26,
     "alignment": 44,

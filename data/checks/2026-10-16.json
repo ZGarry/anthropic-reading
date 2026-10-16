@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-10-16T05:54:50+00:00",
+      "total": 468,
+      "newIds": [
+        "an-update-on-independent-evaluators"
+      ],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 280,
+        "Research": 177,
+        "Engineering": 26,
+        "alignment": 44,
+        "economics": 21,
+        "interpretability": 34,
+        "societal-impacts": 25,
+        "frontier-red-team": 31,
+        "science": 13
+      },
+      "noLongerListed": [
+        "claude-fable-and-mythos-5-1",
+        "threat-intelligence-report-september-2026"
+      ]
+    }
+  ]
+}
