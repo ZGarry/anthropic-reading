@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-10-17T05:38:43+00:00",
+      "total": 473,
+      "newIds": [
+        "designing-efficient-quantum-circuits",
+        "ecdsa-curve-origins",
+        "ai-expectations-gap",
+        "employment-at-anthropic",
+        "expectations-for-the-future"
+      ],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 280,
+        "Research": 182,
+        "Engineering": 26,
+        "alignment": 44,
+        "economics": 24,
+        "interpretability": 34,
+        "societal-impacts": 25,
+        "frontier-red-team": 32,
+        "science": 14
+      },
+      "noLongerListed": [
+        "claude-fable-and-mythos-5-1",
+        "threat-intelligence-report-september-2026"
+      ]
+    }
+  ]
+}

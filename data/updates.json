@@ -175,5 +175,16 @@
       "an-update-on-independent-evaluators"
     ],
     "changedIds": []
+  },
+  {
+    "checkedAt": "2026-10-17T05:38:43+00:00",
+    "newIds": [
+      "designing-efficient-quantum-circuits",
+      "ecdsa-curve-origins",
+      "ai-expectations-gap",
+      "employment-at-anthropic",
+      "expectations-for-the-future"
+    ],
+    "changedIds": []
   }
 ]

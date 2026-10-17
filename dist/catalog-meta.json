@@ -1,27 +1,31 @@
 {
-  "total": 468,
+  "total": 473,
   "newsCount": 282,
-  "researchCount": 179,
+  "researchCount": 184,
   "engineeringCount": 26,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-10-16T05:54:50+00:00",
-  "lastSuccessfulDay": "2026-10-16",
-  "newsSnapshot": "2026-10-16",
-  "researchSnapshot": "2026-10-16",
+  "checkedAt": "2026-10-17T05:38:43+00:00",
+  "lastSuccessfulDay": "2026-10-17",
+  "newsSnapshot": "2026-10-17",
+  "researchSnapshot": "2026-10-17",
   "sourceCounts": {
     "News": 280,
-    "Research": 177,
+    "Research": 182,
     "Engineering": 26,
     "alignment": 44,
-    "economics": 21,
+    "economics": 24,
     "interpretability": 34,
     "societal-impacts": 25,
-    "frontier-red-team": 31,
-    "science": 13
+    "frontier-red-team": 32,
+    "science": 14
   },
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "an-update-on-independent-evaluators"
+    "designing-efficient-quantum-circuits",
+    "ecdsa-curve-origins",
+    "ai-expectations-gap",
+    "employment-at-anthropic",
+    "expectations-for-the-future"
   ]
 }
