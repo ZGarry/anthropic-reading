@@ -1,14 +1,8 @@
 {
   "status": "success",
-  "checkedAt": "2026-10-17T05:38:43+00:00",
+  "checkedAt": "2026-10-18T05:58:49+00:00",
   "total": 473,
-  "newIds": [
-    "designing-efficient-quantum-circuits",
-    "ecdsa-curve-origins",
-    "ai-expectations-gap",
-    "employment-at-anthropic",
-    "expectations-for-the-future"
-  ],
+  "newIds": [],
   "changedIds": [],
   "sourceCounts": {
     "News": 280,
