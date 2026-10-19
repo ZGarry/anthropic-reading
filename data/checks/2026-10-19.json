@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-10-19T06:16:57+00:00",
+      "total": 474,
+      "newIds": [
+        "public-benefit-fund"
+      ],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 281,
+        "Research": 182,
+        "Engineering": 26,
+        "alignment": 44,
+        "economics": 24,
+        "interpretability": 34,
+        "societal-impacts": 25,
+        "frontier-red-team": 32,
+        "science": 14
+      },
+      "noLongerListed": [
+        "claude-fable-and-mythos-5-1",
+        "threat-intelligence-report-september-2026"
+      ]
+    }
+  ]
+}

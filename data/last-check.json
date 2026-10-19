@@ -1,11 +1,13 @@
 {
   "status": "success",
-  "checkedAt": "2026-10-18T05:58:49+00:00",
-  "total": 473,
-  "newIds": [],
+  "checkedAt": "2026-10-19T06:16:57+00:00",
+  "total": 474,
+  "newIds": [
+    "public-benefit-fund"
+  ],
   "changedIds": [],
   "sourceCounts": {
-    "News": 280,
+    "News": 281,
     "Research": 182,
     "Engineering": 26,
     "alignment": 44,

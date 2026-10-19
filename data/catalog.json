@@ -7234,5 +7234,21 @@
     "addedOn": "2026-10-17",
     "number": 473,
     "source": "Research"
+  },
+  {
+    "id": "public-benefit-fund",
+    "title": "Investing in the public benefit",
+    "date": "2026-10-18",
+    "url": "https://www.anthropic.com/news/public-benefit-fund",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-10-19",
+    "number": 474,
+    "source": "News"
   }
 ]
