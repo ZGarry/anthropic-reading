@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10-31",
+    "status": "failed",
+    "checkedAt": "2026-10-31T07:02:14+00:00",
+    "attempts": 1,
+    "newIds": [],
+    "total": null,
+    "error": "News shrank unexpectedly (283 -> 23); original catalogue preserved"
+  },
+  {
     "date": "2026-10-30",
     "status": "failed",
     "checkedAt": "2026-10-30T07:13:38+00:00",
