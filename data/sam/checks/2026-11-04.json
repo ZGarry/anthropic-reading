@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-11-04T07:32:27+00:00",
+      "total": 121,
+      "pages": 13,
+      "livePostCount": 121,
+      "newIds": [],
+      "baseline": false,
+      "changedIds": [],
+      "noLongerListed": []
+    }
+  ]
+}
