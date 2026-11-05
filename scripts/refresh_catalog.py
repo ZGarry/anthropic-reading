@@ -42,6 +42,51 @@ def request(url):
         except requests.RequestException:
             if attempt == 2: raise
 
+def post_slug(post):
+    slug = (post.get('slug') or {}).get('current')
+    link = post.get('linkedUrl') or post.get('url')
+    return slug or (urlsplit(link).path.rstrip('/').split('/')[-1] if link else None)
+
+
+def paginated_posts(decoded):
+    """Follow the same public listing pages as the website's Load more button."""
+    decoder = json.JSONDecoder()
+    def field(name):
+        match = re.search(r'"' + name + r'":', decoded)
+        if not match:
+            raise ValueError('Missing listing field: ' + name)
+        return decoder.raw_decode(decoded[match.end():])[0]
+
+    if not re.search(r'"initialPage":', decoded):
+        return None  # Older pages embed the complete posts array.
+    door, page, expected = field('door'), field('initialPage'), field('articleCount')
+    kind, slug = door.get('kind'), door.get('slug')
+    if kind not in ('news', 'research', 'team', 'newsCategory', 'collection'):
+        raise ValueError('Unsupported listing door')
+    if slug is not None and not re.fullmatch(r'[a-z0-9-]+', slug):
+        raise ValueError('Invalid listing slug')
+    endpoint = kind + ('-' + slug if slug else '')
+    posts, seen = [], set()
+    for number in range(1, 51):
+        if not isinstance(page, dict) or not isinstance(page.get('posts'), list) or type(page.get('hasNextPage')) is not bool:
+            raise ValueError('Invalid listing page: ' + endpoint)
+        batch = page['posts']
+        keys = [p.get('_id') or post_slug(p) for p in batch if isinstance(p, dict)]
+        if len(keys) != len(batch) or any(not k for k in keys) or len(set(keys)) != len(keys) or seen.intersection(keys):
+            raise ValueError('Duplicate or invalid listing records: ' + endpoint)
+        if page['hasNextPage'] and not batch:
+            raise ValueError('Empty unfinished listing page: ' + endpoint)
+        seen.update(keys)
+        posts.extend(batch)
+        if not page['hasNextPage']:
+            if type(expected) is not int or len(posts) != expected:
+                raise ValueError(f'Listing count mismatch: {endpoint} ({expected} -> {len(posts)})')
+            return posts
+        if number < 50:
+            page = request(f'{BASE}/listing/{endpoint}/default/{number + 1}').json()
+    raise ValueError('Listing exceeded 50 pages: ' + endpoint)
+
+
 def read_listing(item):
     name, url = item
     response = request(url)
@@ -57,25 +102,34 @@ def read_listing(item):
     decoded = ''.join(chunks)
     decoder = json.JSONDecoder()
     posts = {}
-    for match in re.finditer(r'"posts":\[', decoded):
-        value, _ = decoder.raw_decode(decoded[match.end()-1:])
-        for post in value:
-            if isinstance(post, dict) and post.get('slug'): posts[post['slug']['current']] = post
-    for match in re.finditer(r'\{(?=[^{}]{0,200}"_type":"(?:post|featuredGridLink)")', decoded):
-        try:
-            post, _ = decoder.raw_decode(decoded[match.start():])
-            if post.get('slug'): posts.setdefault(post['slug']['current'], post)
-            elif post.get('_type') == 'featuredGridLink' and post.get('date') and post.get('url'):
-                posts.setdefault(urlsplit(post['url']).path.rstrip('/').split('/')[-1], post)
-        except (ValueError, TypeError): pass
+    paged = paginated_posts(decoded)
+    if paged is not None:
+        for post in paged:
+            slug = post_slug(post)
+            if not slug:
+                raise ValueError('Missing listing article link: ' + name)
+            posts[slug] = post
+    else:
+        for match in re.finditer(r'"posts":\[', decoded):
+            value, _ = decoder.raw_decode(decoded[match.end()-1:])
+            for post in value:
+                if isinstance(post, dict) and post_slug(post): posts[post_slug(post)] = post
+        for match in re.finditer(r'\{(?=[^{}]{0,200}"_type":"(?:post|featuredGridLink)")', decoded):
+            try:
+                post, _ = decoder.raw_decode(decoded[match.start():])
+                if post_slug(post): posts.setdefault(post_slug(post), post)
+            except (ValueError, TypeError): pass
     records = {}
     source = name if name in ('News', 'Research', 'Engineering') else 'Research'
     for slug, post in posts.items():
         date = (post.get('publishedOn') or post.get('date') or '')[:10]
         if not date: continue
-        url = urljoin(BASE, post.get('url') or '/' + source.lower() + '/' + slug)
+        article_source = post.get('articleType') or source.lower()
+        url = urljoin(BASE, post.get('linkedUrl') or post.get('url') or '/' + article_source + '/' + slug)
         if urlsplit(url).hostname not in ('www.anthropic.com', 'anthropic.com', 'claude.com', 'www.claude.com'): continue
         cats = [category(x['value']) for x in post.get('subjects') or []]
+        cats.extend(category(x) for x in post.get('newsCategories') or [])
+        cats.extend(category(x['slug']) for x in post.get('cardTeams') or [] if x.get('slug'))
         if post.get('subject'): cats.append(category(post['subject']))
         if name not in ('News', 'Research', 'Engineering'): cats.append(name)
         if source == 'Engineering': cats.append('engineering')
