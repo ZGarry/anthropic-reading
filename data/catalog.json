@@ -110,7 +110,7 @@
   },
   {
     "id": "scaling-laws-and-interpretability-of-learning-from-repeated-data",
-    "title": "Scaling Laws and Interpretability of Learning from Repeated Data",
+    "title": "Scaling laws and interpretability of learning from repeated data",
     "date": "2022-05-21",
     "url": "https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data",
     "categories": [
@@ -158,7 +158,7 @@
   },
   {
     "id": "red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned",
-    "title": "Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned",
+    "title": "Red teaming language models to reduce harms: methods, scaling behaviors, and lessons learned",
     "date": "2022-08-22",
     "url": "https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned",
     "categories": [
@@ -189,7 +189,7 @@
   },
   {
     "id": "measuring-progress-on-scalable-oversight-for-large-language-models",
-    "title": "Measuring Progress on Scalable Oversight for Large Language Models",
+    "title": "Measuring progress on scalable oversight for large language models",
     "date": "2022-11-04",
     "url": "https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models",
     "categories": [
@@ -257,7 +257,8 @@
     "date": "2023-02-03",
     "url": "https://www.anthropic.com/news/anthropic-partners-with-google-cloud",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -268,7 +269,7 @@
   },
   {
     "id": "the-capacity-for-moral-self-correction-in-large-language-models",
-    "title": "The Capacity for Moral Self-Correction in Large Language Models",
+    "title": "The capacity for moral self-correction in large language models",
     "date": "2023-02-15",
     "url": "https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models",
     "categories": [
@@ -287,7 +288,8 @@
     "date": "2023-03-08",
     "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -302,7 +304,8 @@
     "date": "2023-03-14",
     "url": "https://www.anthropic.com/news/introducing-claude",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -329,11 +332,12 @@
   },
   {
     "id": "an-ai-policy-tool-for-today-ambitiously-invest-in-nist",
-    "title": "An AI Policy Tool for Today: Ambitiously Invest in NIST",
+    "title": "An AI policy tool for today: Ambitiously invest in NIST",
     "date": "2023-04-20",
     "url": "https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -348,7 +352,8 @@
     "date": "2023-04-26",
     "url": "https://www.anthropic.com/news/partnering-with-scale",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -379,7 +384,8 @@
     "date": "2023-05-09",
     "url": "https://www.anthropic.com/news/claudes-constitution",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -394,7 +400,8 @@
     "date": "2023-05-11",
     "url": "https://www.anthropic.com/news/100k-context-windows",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -409,7 +416,8 @@
     "date": "2023-05-16",
     "url": "https://www.anthropic.com/news/zoom-partnership-and-investment",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -471,7 +479,8 @@
     "date": "2023-06-13",
     "url": "https://www.anthropic.com/news/charting-a-path-to-ai-accountability",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -501,7 +510,8 @@
     "date": "2023-07-11",
     "url": "https://www.anthropic.com/news/claude-2",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -548,7 +558,8 @@
     "date": "2023-07-25",
     "url": "https://www.anthropic.com/news/frontier-model-security",
     "categories": [
-      "announcements"
+      "announcements",
+      "security"
     ],
     "sources": [
       "News"
@@ -563,7 +574,8 @@
     "date": "2023-07-26",
     "url": "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety",
     "categories": [
-      "announcements"
+      "announcements",
+      "security"
     ],
     "sources": [
       "News"
@@ -610,7 +622,8 @@
     "date": "2023-08-09",
     "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -625,7 +638,8 @@
     "date": "2023-08-15",
     "url": "https://www.anthropic.com/news/skt-partnership-announcement",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -640,7 +654,8 @@
     "date": "2023-09-07",
     "url": "https://www.anthropic.com/news/claude-pro",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -655,7 +670,8 @@
     "date": "2023-09-14",
     "url": "https://www.anthropic.com/news/anthropic-bcg",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -670,7 +686,8 @@
     "date": "2023-09-19",
     "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -715,7 +732,8 @@
     "date": "2023-09-25",
     "url": "https://www.anthropic.com/news/anthropic-amazon",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -730,6 +748,7 @@
     "date": "2023-10-04",
     "url": "https://www.anthropic.com/research/evaluating-ai-systems",
     "categories": [
+      "frontier-red-team",
       "policy"
     ],
     "source": "Research",
@@ -855,6 +874,7 @@
     "date": "2023-11-21",
     "url": "https://www.anthropic.com/news/claude-2-1",
     "categories": [
+      "models",
       "product"
     ],
     "sources": [
@@ -866,7 +886,7 @@
   },
   {
     "id": "evaluating-and-mitigating-discrimination-in-language-model-decisions",
-    "title": "Evaluating and Mitigating Discrimination in Language Model Decisions",
+    "title": "Evaluating and mitigating discrimination in language model decisions",
     "date": "2023-12-07",
     "url": "https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions",
     "categories": [
@@ -885,7 +905,8 @@
     "date": "2023-12-19",
     "url": "https://www.anthropic.com/news/expanded-legal-protections-api-improvements",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -896,7 +917,7 @@
   },
   {
     "id": "sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
-    "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+    "title": "Sleeper Agents: Training deceptive LLMs that persist through safety training",
     "date": "2024-01-14",
     "url": "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
     "categories": [
@@ -916,7 +937,8 @@
     "date": "2024-02-16",
     "url": "https://www.anthropic.com/news/preparing-for-global-elections-in-2024",
     "categories": [
-      "policy"
+      "policy",
+      "safeguards"
     ],
     "sources": [
       "News"
@@ -946,7 +968,8 @@
     "date": "2024-03-04",
     "url": "https://www.anthropic.com/news/claude-3-family",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -957,7 +980,7 @@
   },
   {
     "id": "transformer-circuits",
-    "title": "Reflections on Qualitative Research",
+    "title": "Reflections on qualitative research",
     "date": "2024-03-08",
     "url": "https://www.anthropic.com/research/transformer-circuits",
     "categories": [
@@ -977,7 +1000,8 @@
     "date": "2024-03-13",
     "url": "https://www.anthropic.com/news/claude-3-haiku",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -992,7 +1016,8 @@
     "date": "2024-03-19",
     "url": "https://www.anthropic.com/news/google-vertex-general-availability",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -1007,7 +1032,8 @@
     "date": "2024-03-20",
     "url": "https://www.anthropic.com/news/accenture-aws-anthropic",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -1067,7 +1093,8 @@
     "date": "2024-04-23",
     "url": "https://www.anthropic.com/news/child-safety-principles",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -1114,7 +1141,8 @@
     "date": "2024-05-10",
     "url": "https://www.anthropic.com/news/updating-our-usage-policy",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -1129,7 +1157,8 @@
     "date": "2024-05-14",
     "url": "https://www.anthropic.com/news/claude-europe",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -1204,14 +1233,16 @@
     "date": "2024-05-23",
     "url": "https://www.anthropic.com/news/golden-gate-claude",
     "categories": [
+      "interpretability",
       "product"
     ],
     "sources": [
-      "News"
+      "News",
+      "Research"
     ],
     "defaultRead": false,
     "number": 79,
-    "source": "News"
+    "source": "News / Research"
   },
   {
     "id": "jay-kreps-appointed-to-board-of-directors",
@@ -1234,7 +1265,8 @@
     "date": "2024-06-05",
     "url": "https://www.anthropic.com/news/introducing-claude-to-canada",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -1250,6 +1282,7 @@
     "url": "https://www.anthropic.com/research/testing-and-mitigating-elections-related-risks",
     "categories": [
       "policy",
+      "safeguards",
       "societal-impacts"
     ],
     "source": "News / Research",
@@ -1262,7 +1295,7 @@
   },
   {
     "id": "claude-character",
-    "title": "Claude’s Character",
+    "title": "Claude’s character",
     "date": "2024-06-08",
     "url": "https://www.anthropic.com/research/claude-character",
     "categories": [
@@ -1281,7 +1314,9 @@
     "date": "2024-06-12",
     "url": "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems",
     "categories": [
-      "policy"
+      "frontier-red-team",
+      "policy",
+      "safeguards"
     ],
     "sources": [
       "News"
@@ -1326,7 +1361,8 @@
     "date": "2024-06-21",
     "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -1356,7 +1392,8 @@
     "date": "2024-06-26",
     "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -1386,7 +1423,8 @@
     "date": "2024-07-01",
     "url": "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -1446,7 +1484,8 @@
     "date": "2024-08-01",
     "url": "https://www.anthropic.com/news/claude-brazil",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -1461,7 +1500,8 @@
     "date": "2024-08-08",
     "url": "https://www.anthropic.com/news/model-safety-bug-bounty",
     "categories": [
-      "announcements"
+      "announcements",
+      "safeguards"
     ],
     "sources": [
       "News"
@@ -1476,7 +1516,8 @@
     "date": "2024-09-03",
     "url": "https://www.anthropic.com/news/salesforce-partnership",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -1510,11 +1551,12 @@
       "engineering",
       "product"
     ],
-    "source": "Engineering / News",
+    "source": "Engineering / News / Research",
     "number": 99,
     "sources": [
       "Engineering",
-      "News"
+      "News",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -1539,6 +1581,7 @@
     "date": "2024-10-08",
     "url": "https://www.anthropic.com/news/us-elections-readiness",
     "categories": [
+      "safeguards",
       "societal-impacts"
     ],
     "sources": [
@@ -1554,7 +1597,8 @@
     "date": "2024-10-15",
     "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -1599,7 +1643,8 @@
     "date": "2024-10-22",
     "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -1647,7 +1692,8 @@
     "date": "2024-10-29",
     "url": "https://www.anthropic.com/news/github-copilot",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -1695,6 +1741,7 @@
     "date": "2024-11-19",
     "url": "https://www.anthropic.com/research/statistical-approach-to-model-evals",
     "categories": [
+      "alignment",
       "evaluations"
     ],
     "source": "Research",
@@ -1710,7 +1757,8 @@
     "date": "2024-11-22",
     "url": "https://www.anthropic.com/news/anthropic-amazon-trainium",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -1725,7 +1773,8 @@
     "date": "2024-11-25",
     "url": "https://www.anthropic.com/news/model-context-protocol",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -1751,10 +1800,11 @@
   },
   {
     "id": "elections-ai-2024",
-    "title": "Elections and AI in 2024: observations and learnings",
+    "title": "Elections and AI in 2024: Observations and learnings",
     "date": "2024-12-12",
     "url": "https://www.anthropic.com/news/elections-ai-2024",
     "categories": [
+      "safeguards",
       "societal-impacts"
     ],
     "sources": [
@@ -1833,7 +1883,8 @@
     "date": "2025-02-06",
     "url": "https://www.anthropic.com/news/lyft-announcement",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -1880,7 +1931,8 @@
     "date": "2025-02-14",
     "url": "https://www.anthropic.com/news/mou-uk-government",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -1910,7 +1962,8 @@
     "date": "2025-02-24",
     "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -1925,7 +1978,8 @@
     "date": "2025-02-24",
     "url": "https://www.anthropic.com/news/visible-extended-thinking",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -1955,7 +2009,8 @@
     "date": "2025-02-26",
     "url": "https://www.anthropic.com/news/claude-and-alexa-plus",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -1970,6 +2025,7 @@
     "date": "2025-02-27",
     "url": "https://www.anthropic.com/news/introducing-anthropic-transparency-hub",
     "categories": [
+      "policy",
       "societal-impacts"
     ],
     "sources": [
@@ -1985,7 +2041,8 @@
     "date": "2025-02-28",
     "url": "https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -2047,6 +2104,7 @@
     "date": "2025-03-19",
     "url": "https://www.anthropic.com/news/anthropic-s-response-to-governor-newsom-s-ai-working-group-draft-report",
     "categories": [
+      "policy",
       "societal-impacts"
     ],
     "sources": [
@@ -2062,14 +2120,16 @@
     "date": "2025-03-19",
     "url": "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
     "categories": [
+      "frontier-red-team",
       "policy"
     ],
     "sources": [
-      "News"
+      "News",
+      "Research"
     ],
     "defaultRead": false,
     "number": 135,
-    "source": "News"
+    "source": "News / Research"
   },
   {
     "id": "claude-think-tool",
@@ -2079,10 +2139,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 136,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -2124,7 +2185,8 @@
     "date": "2025-04-02",
     "url": "https://www.anthropic.com/news/introducing-claude-for-education",
     "categories": [
-      "education"
+      "education",
+      "product"
     ],
     "sources": [
       "News"
@@ -2139,6 +2201,7 @@
     "date": "2025-04-03",
     "url": "https://www.anthropic.com/news/Introducing-code-with-claude",
     "categories": [
+      "announcements",
       "events"
     ],
     "sources": [
@@ -2203,10 +2266,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 144,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -2216,7 +2280,8 @@
     "date": "2025-04-21",
     "url": "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms",
     "categories": [
-      "policy"
+      "policy",
+      "safeguards"
     ],
     "sources": [
       "News"
@@ -2247,7 +2312,8 @@
     "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
     "categories": [
       "announcements",
-      "policy"
+      "policy",
+      "security"
     ],
     "sources": [
       "News"
@@ -2340,7 +2406,8 @@
     "date": "2025-05-14",
     "url": "https://www.anthropic.com/news/testing-our-safety-defenses-with-a-new-bug-bounty-program",
     "categories": [
-      "announcements"
+      "announcements",
+      "safeguards"
     ],
     "sources": [
       "News"
@@ -2355,7 +2422,8 @@
     "date": "2025-05-22",
     "url": "https://www.anthropic.com/news/activating-asl3-protections",
     "categories": [
-      "policy"
+      "policy",
+      "safeguards"
     ],
     "sources": [
       "News"
@@ -2370,7 +2438,8 @@
     "date": "2025-05-22",
     "url": "https://www.anthropic.com/news/claude-4",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -2415,7 +2484,8 @@
     "date": "2025-06-06",
     "url": "https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -2445,7 +2515,8 @@
     "date": "2025-06-11",
     "url": "https://www.anthropic.com/news/claude-in-amazon-bedrock-fedramp-high",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -2477,10 +2548,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 162,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -2505,11 +2577,13 @@
     "date": "2025-06-18",
     "url": "https://www.anthropic.com/research/confidential-inference-trusted-vms",
     "categories": [
-      "announcements"
+      "announcements",
+      "engineering"
     ],
-    "source": "Research",
+    "source": "Engineering / Research",
     "number": 164,
     "sources": [
+      "Engineering",
       "Research"
     ],
     "defaultRead": false
@@ -2537,10 +2611,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 166,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -2550,6 +2625,7 @@
     "date": "2025-06-27",
     "url": "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship",
     "categories": [
+      "alignment",
       "societal-impacts"
     ],
     "source": "News / Research",
@@ -2629,7 +2705,8 @@
     "date": "2025-07-09",
     "url": "https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -2644,7 +2721,8 @@
     "date": "2025-07-14",
     "url": "https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -2750,7 +2828,8 @@
     "date": "2025-07-23",
     "url": "https://www.anthropic.com/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -2810,7 +2889,8 @@
     "date": "2025-08-04",
     "url": "https://www.anthropic.com/news/our-framework-for-developing-safe-and-trustworthy-agents",
     "categories": [
-      "policy"
+      "policy",
+      "safeguards"
     ],
     "sources": [
       "News"
@@ -2825,7 +2905,8 @@
     "date": "2025-08-05",
     "url": "https://www.anthropic.com/news/claude-opus-4-1",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -2840,7 +2921,8 @@
     "date": "2025-08-05",
     "url": "https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -2885,7 +2967,8 @@
     "date": "2025-08-12",
     "url": "https://www.anthropic.com/news/building-safeguards-for-claude",
     "categories": [
-      "product"
+      "product",
+      "safeguards"
     ],
     "sources": [
       "News"
@@ -2900,7 +2983,8 @@
     "date": "2025-08-12",
     "url": "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -2976,7 +3060,8 @@
     "url": "https://www.anthropic.com/research/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
     "categories": [
       "announcements",
-      "frontier-red-team"
+      "frontier-red-team",
+      "safeguards"
     ],
     "source": "News / Research",
     "number": 195,
@@ -3023,7 +3108,8 @@
     "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
     "categories": [
       "announcements",
-      "policy"
+      "policy",
+      "security"
     ],
     "sources": [
       "News"
@@ -3038,7 +3124,8 @@
     "date": "2025-08-27",
     "url": "https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -3053,6 +3140,7 @@
     "date": "2025-08-28",
     "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
     "categories": [
+      "policy",
       "product"
     ],
     "sources": [
@@ -3083,7 +3171,8 @@
     "date": "2025-09-04",
     "url": "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -3098,7 +3187,8 @@
     "date": "2025-09-04",
     "url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -3128,7 +3218,8 @@
     "date": "2025-09-08",
     "url": "https://www.anthropic.com/news/anthropic-is-endorsing-sb-53",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -3145,10 +3236,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 206,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -3158,7 +3250,8 @@
     "date": "2025-09-12",
     "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi",
     "categories": [
-      "announcements"
+      "announcements",
+      "safeguards"
     ],
     "sources": [
       "News"
@@ -3221,10 +3314,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 211,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -3249,7 +3343,8 @@
     "date": "2025-09-29",
     "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -3266,10 +3361,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 214,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -3311,7 +3407,8 @@
     "date": "2025-10-06",
     "url": "https://www.anthropic.com/news/deloitte-anthropic-partnership",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -3386,6 +3483,7 @@
     "date": "2025-10-14",
     "url": "https://www.anthropic.com/research/economic-policy-responses",
     "categories": [
+      "economics",
       "policy"
     ],
     "source": "Research",
@@ -3402,6 +3500,7 @@
     "url": "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership",
     "categories": [
       "announcements",
+      "partnerships",
       "product"
     ],
     "sources": [
@@ -3417,6 +3516,7 @@
     "date": "2025-10-15",
     "url": "https://www.anthropic.com/news/claude-haiku-4-5",
     "categories": [
+      "models",
       "product"
     ],
     "sources": [
@@ -3434,10 +3534,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 225,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -3464,10 +3565,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 227,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -3478,7 +3580,8 @@
     "url": "https://www.anthropic.com/news/claude-for-life-sciences",
     "categories": [
       "announcements",
-      "beneficial-deployments"
+      "beneficial-deployments",
+      "product"
     ],
     "sources": [
       "News"
@@ -3493,7 +3596,8 @@
     "date": "2025-10-21",
     "url": "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
@@ -3538,7 +3642,8 @@
     "date": "2025-10-27",
     "url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -3584,7 +3689,8 @@
     "url": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
     "categories": [
       "announcements",
-      "beneficial-deployments"
+      "beneficial-deployments",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -3601,10 +3707,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 236,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -3614,7 +3721,8 @@
     "date": "2025-11-04",
     "url": "https://www.anthropic.com/news/cognizant-partnership",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -3629,11 +3737,13 @@
     "date": "2025-11-04",
     "url": "https://www.anthropic.com/research/deprecation-commitments",
     "categories": [
-      "alignment"
+      "alignment",
+      "models"
     ],
-    "source": "Research",
+    "source": "News / Research",
     "number": 238,
     "sources": [
+      "News",
       "Research"
     ],
     "defaultRead": false
@@ -3644,6 +3754,7 @@
     "date": "2025-11-05",
     "url": "https://www.anthropic.com/news/economic-futures-uk-europe",
     "categories": [
+      "announcements",
       "economics"
     ],
     "sources": [
@@ -3706,7 +3817,8 @@
     "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
     "categories": [
       "announcements",
-      "policy"
+      "policy",
+      "security"
     ],
     "sources": [
       "News"
@@ -3721,7 +3833,8 @@
     "date": "2025-11-13",
     "url": "https://www.anthropic.com/news/maryland-partnership",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -3740,11 +3853,12 @@
       "societal-impacts"
     ],
     "sources": [
-      "News"
+      "News",
+      "Research"
     ],
     "defaultRead": false,
     "number": 245,
-    "source": "News"
+    "source": "News / Research"
   },
   {
     "id": "claude-in-microsoft-foundry",
@@ -3767,7 +3881,8 @@
     "date": "2025-11-18",
     "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -3783,7 +3898,8 @@
     "url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education",
     "categories": [
       "announcements",
-      "beneficial-deployments"
+      "beneficial-deployments",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -3794,7 +3910,7 @@
   },
   {
     "id": "emergent-misalignment-reward-hacking",
-    "title": "From shortcuts to sabotage: natural emergent misalignment from reward hacking",
+    "title": "From shortcuts to sabotage: Natural emergent misalignment from reward hacking",
     "date": "2025-11-21",
     "url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
     "categories": [
@@ -3815,10 +3931,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 250,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -3828,7 +3945,8 @@
     "date": "2025-11-24",
     "url": "https://www.anthropic.com/news/claude-opus-4-5",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
@@ -3843,6 +3961,7 @@
     "date": "2025-11-24",
     "url": "https://www.anthropic.com/research/prompt-injection-defenses",
     "categories": [
+      "alignment",
       "product"
     ],
     "source": "Research",
@@ -3875,10 +3994,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 254,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -3903,7 +4023,8 @@
     "date": "2025-12-02",
     "url": "https://www.anthropic.com/news/claude-for-nonprofits",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
@@ -3949,6 +4070,7 @@
     "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership",
     "categories": [
       "announcements",
+      "partnerships",
       "product"
     ],
     "sources": [
@@ -3980,6 +4102,7 @@
     "url": "https://www.anthropic.com/news/anthropic-accenture-partnership",
     "categories": [
       "announcements",
+      "partnerships",
       "product"
     ],
     "sources": [
@@ -4010,7 +4133,8 @@
     "date": "2025-12-18",
     "url": "https://www.anthropic.com/news/genesis-mission-partnership",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -4041,7 +4165,8 @@
     "date": "2025-12-18",
     "url": "https://www.anthropic.com/news/protecting-well-being-of-users",
     "categories": [
-      "announcements"
+      "announcements",
+      "safeguards"
     ],
     "sources": [
       "News"
@@ -4103,10 +4228,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 269,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -4132,7 +4258,8 @@
     "url": "https://www.anthropic.com/news/healthcare-life-sciences",
     "categories": [
       "announcements",
-      "beneficial-deployments"
+      "beneficial-deployments",
+      "product"
     ],
     "sources": [
       "News"
@@ -4178,14 +4305,16 @@
     "url": "https://www.anthropic.com/news/accelerating-scientific-research",
     "categories": [
       "beneficial-deployments",
-      "case-studies"
+      "case-studies",
+      "science"
     ],
     "sources": [
-      "News"
+      "News",
+      "Research"
     ],
     "defaultRead": false,
     "number": 274,
-    "source": "News"
+    "source": "News / Research"
   },
   {
     "id": "anthropic-economic-index-january-2026-report",
@@ -4271,10 +4400,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
+    "source": "Engineering / Research",
     "number": 280,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -4285,7 +4415,8 @@
     "url": "https://www.anthropic.com/news/anthropic-teach-for-all",
     "categories": [
       "announcements",
-      "beneficial-deployments"
+      "beneficial-deployments",
+      "partnerships"
     ],
     "sources": [
       "News"
@@ -4315,7 +4446,8 @@
     "date": "2026-01-22",
     "url": "https://www.anthropic.com/research/claude-new-constitution",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "source": "News / Research",
     "number": 283,
@@ -4326,18 +4458,51 @@
     "defaultRead": false
   },
   {
-    "id": "gov-UK-partnership",
-    "title": "Anthropic partners with the UK Government to bring AI assistance to GOV.UK services",
-    "date": "2026-01-27",
-    "url": "https://www.anthropic.com/news/gov-UK-partnership",
+    "id": "constitution",
+    "title": "Claude's Constitution",
+    "date": "2026-01-22",
+    "url": "https://www.anthropic.com/constitution",
     "categories": [
-      "announcements"
+      "alignment"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 284,
+    "source": "Research"
+  },
+  {
+    "id": "claude-on-mars",
+    "title": "The first AI-planned drive on Mars",
+    "date": "2026-01-24",
+    "url": "https://www.anthropic.com/features/claude-on-mars",
+    "categories": [
+      "features"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 284,
+    "addedOn": "2026-11-05",
+    "number": 285,
+    "source": "News"
+  },
+  {
+    "id": "gov-UK-partnership",
+    "title": "Anthropic partners with the UK Government to bring AI assistance to GOV.UK services",
+    "date": "2026-01-27",
+    "url": "https://www.anthropic.com/news/gov-UK-partnership",
+    "categories": [
+      "announcements",
+      "partnerships"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "number": 286,
     "source": "News"
   },
   {
@@ -4349,7 +4514,7 @@
       "alignment"
     ],
     "source": "Research",
-    "number": 285,
+    "number": 287,
     "sources": [
       "Research"
     ],
@@ -4361,13 +4526,14 @@
     "date": "2026-01-28",
     "url": "https://www.anthropic.com/news/servicenow-anthropic-claude",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 286,
+    "number": 288,
     "source": "News"
   },
   {
@@ -4379,7 +4545,7 @@
       "alignment"
     ],
     "source": "Research",
-    "number": 287,
+    "number": 289,
     "sources": [
       "Research"
     ],
@@ -4392,13 +4558,14 @@
     "url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
     "categories": [
       "beneficial-deployments",
+      "partnerships",
       "societal-impacts"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 288,
+    "number": 290,
     "source": "News"
   },
   {
@@ -4407,13 +4574,14 @@
     "date": "2026-02-03",
     "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk",
     "categories": [
+      "partnerships",
       "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 289,
+    "number": 291,
     "source": "News"
   },
   {
@@ -4428,7 +4596,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 290,
+    "number": 292,
     "source": "News"
   },
   {
@@ -4439,10 +4607,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
-    "number": 291,
+    "source": "Engineering / Research",
+    "number": 293,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -4452,13 +4621,14 @@
     "date": "2026-02-05",
     "url": "https://www.anthropic.com/news/claude-opus-4-6",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 292,
+    "number": 294,
     "source": "News"
   },
   {
@@ -4469,10 +4639,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
-    "number": 293,
+    "source": "Engineering / Research",
+    "number": 295,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -4485,7 +4656,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 294,
+    "number": 296,
     "sources": [
       "Research"
     ],
@@ -4503,7 +4674,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 295,
+    "number": 297,
     "source": "News"
   },
   {
@@ -4518,7 +4689,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 296,
+    "number": 298,
     "source": "News"
   },
   {
@@ -4533,7 +4704,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 297,
+    "number": 299,
     "source": "News"
   },
   {
@@ -4543,13 +4714,14 @@
     "url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
     "categories": [
       "announcements",
-      "beneficial-deployments"
+      "beneficial-deployments",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 298,
+    "number": 300,
     "source": "News"
   },
   {
@@ -4564,7 +4736,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 299,
+    "number": 301,
     "source": "News"
   },
   {
@@ -4579,7 +4751,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 300,
+    "number": 302,
     "source": "News"
   },
   {
@@ -4591,7 +4763,7 @@
       "economics"
     ],
     "source": "Research",
-    "number": 301,
+    "number": 303,
     "sources": [
       "Research"
     ],
@@ -4603,13 +4775,14 @@
     "date": "2026-02-17",
     "url": "https://www.anthropic.com/news/anthropic-infosys",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 302,
+    "number": 304,
     "source": "News"
   },
   {
@@ -4619,13 +4792,14 @@
     "url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
     "categories": [
       "announcements",
-      "beneficial-deployments"
+      "beneficial-deployments",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 303,
+    "number": 305,
     "source": "News"
   },
   {
@@ -4634,13 +4808,14 @@
     "date": "2026-02-17",
     "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
     "categories": [
+      "models",
       "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 304,
+    "number": 306,
     "source": "News"
   },
   {
@@ -4652,7 +4827,7 @@
       "societal-impacts"
     ],
     "source": "Research",
-    "number": 305,
+    "number": 307,
     "sources": [
       "Research"
     ],
@@ -4664,13 +4839,14 @@
     "date": "2026-02-20",
     "url": "https://www.anthropic.com/news/claude-code-security",
     "categories": [
-      "announcements"
+      "announcements",
+      "security"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 306,
+    "number": 308,
     "source": "News"
   },
   {
@@ -4679,10 +4855,11 @@
     "date": "2026-02-23",
     "url": "https://academy.claude.com/tutorials/the-ai-fluency-index",
     "categories": [
-      "announcements"
+      "announcements",
+      "societal-impacts"
     ],
     "source": "Research",
-    "number": 307,
+    "number": 309,
     "sources": [
       "Research"
     ],
@@ -4695,13 +4872,30 @@
     "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
     "categories": [
       "announcements",
-      "policy"
+      "policy",
+      "security"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 308,
+    "number": 310,
+    "source": "News"
+  },
+  {
+    "id": "making-of-claude-code",
+    "title": "The making of Claude Code",
+    "date": "2026-02-23",
+    "url": "https://www.anthropic.com/features/making-of-claude-code",
+    "categories": [
+      "features"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 311,
     "source": "News"
   },
   {
@@ -4713,7 +4907,7 @@
       "alignment"
     ],
     "source": "Research",
-    "number": 309,
+    "number": 312,
     "sources": [
       "Research"
     ],
@@ -4732,7 +4926,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 310,
+    "number": 313,
     "source": "News"
   },
   {
@@ -4747,7 +4941,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 311,
+    "number": 314,
     "source": "News"
   },
   {
@@ -4756,11 +4950,13 @@
     "date": "2026-02-25",
     "url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
     "categories": [
-      "alignment"
+      "alignment",
+      "models"
     ],
-    "source": "Research",
-    "number": 312,
+    "source": "News / Research",
+    "number": 315,
     "sources": [
+      "News",
       "Research"
     ],
     "defaultRead": false
@@ -4778,7 +4974,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 313,
+    "number": 316,
     "source": "News"
   },
   {
@@ -4794,7 +4990,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 314,
+    "number": 317,
     "source": "News"
   },
   {
@@ -4806,7 +5002,7 @@
       "economics"
     ],
     "source": "Research",
-    "number": 315,
+    "number": 318,
     "sources": [
       "Research"
     ],
@@ -4825,7 +5021,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 316,
+    "number": 319,
     "source": "News"
   },
   {
@@ -4836,10 +5032,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
-    "number": 317,
+    "source": "Engineering / Research",
+    "number": 320,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -4852,7 +5049,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 318,
+    "number": 321,
     "sources": [
       "Research"
     ],
@@ -4865,10 +5062,11 @@
     "url": "https://www.anthropic.com/research/mozilla-firefox-security",
     "categories": [
       "frontier-red-team",
-      "policy"
+      "policy",
+      "security"
     ],
     "source": "News / Research",
-    "number": 319,
+    "number": 322,
     "sources": [
       "News",
       "Research"
@@ -4887,7 +5085,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 320,
+    "number": 323,
     "source": "News"
   },
   {
@@ -4902,7 +5100,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 321,
+    "number": 324,
     "source": "News"
   },
   {
@@ -4911,13 +5109,14 @@
     "date": "2026-03-12",
     "url": "https://www.anthropic.com/news/claude-partner-network",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 322,
+    "number": 325,
     "source": "News"
   },
   {
@@ -4929,7 +5128,7 @@
       "interpretability"
     ],
     "source": "Research",
-    "number": 323,
+    "number": 326,
     "sources": [
       "Research"
     ],
@@ -4941,6 +5140,7 @@
     "date": "2026-03-18",
     "url": "https://www.anthropic.com/features/81k-interviews",
     "categories": [
+      "economics",
       "societal-impacts"
     ],
     "sources": [
@@ -4948,7 +5148,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-09-29",
-    "number": 324,
+    "number": 327,
     "source": "Research"
   },
   {
@@ -4960,7 +5160,7 @@
       "science"
     ],
     "source": "Research",
-    "number": 325,
+    "number": 328,
     "sources": [
       "Research"
     ],
@@ -4975,11 +5175,27 @@
       "science"
     ],
     "source": "Research",
-    "number": 326,
+    "number": 329,
     "sources": [
       "Research"
     ],
     "defaultRead": false
+  },
+  {
+    "id": "long-running-claude",
+    "title": "Long-running Claude for scientific computing",
+    "date": "2026-03-23",
+    "url": "https://www.anthropic.com/research/long-running-claude",
+    "categories": [
+      "science"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 330,
+    "source": "Research"
   },
   {
     "id": "vibe-physics",
@@ -4990,7 +5206,7 @@
       "science"
     ],
     "source": "Research",
-    "number": 327,
+    "number": 331,
     "sources": [
       "Research"
     ],
@@ -5005,7 +5221,7 @@
       "economics"
     ],
     "source": "Research",
-    "number": 328,
+    "number": 332,
     "sources": [
       "Research"
     ],
@@ -5019,10 +5235,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
-    "number": 329,
+    "source": "Engineering / Research",
+    "number": 333,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -5034,10 +5251,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
-    "number": 330,
+    "source": "Engineering / Research",
+    "number": 334,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -5047,13 +5265,14 @@
     "date": "2026-03-31",
     "url": "https://www.anthropic.com/news/australia-MOU",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 331,
+    "number": 335,
     "source": "News"
   },
   {
@@ -5065,7 +5284,7 @@
       "economics"
     ],
     "source": "Research",
-    "number": 332,
+    "number": 336,
     "sources": [
       "Research"
     ],
@@ -5080,11 +5299,27 @@
       "interpretability"
     ],
     "source": "Research",
-    "number": 333,
+    "number": 337,
     "sources": [
       "Research"
     ],
     "defaultRead": false
+  },
+  {
+    "id": "project-glasswing",
+    "title": "Project Glasswing: Securing critical software for the AI era",
+    "date": "2026-04-04",
+    "url": "https://www.anthropic.com/glasswing",
+    "categories": [
+      "security"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 338,
+    "source": "News"
   },
   {
     "id": "google-broadcom-partnership-compute",
@@ -5098,7 +5333,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 334,
+    "number": 339,
     "source": "News"
   },
   {
@@ -5110,7 +5345,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 335,
+    "number": 340,
     "sources": [
       "Research"
     ],
@@ -5124,10 +5359,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
-    "number": 336,
+    "source": "Engineering / Research",
+    "number": 341,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -5137,10 +5373,11 @@
     "date": "2026-04-09",
     "url": "https://www.anthropic.com/research/trustworthy-agents",
     "categories": [
+      "frontier-red-team",
       "policy"
     ],
     "source": "Research",
-    "number": 337,
+    "number": 342,
     "sources": [
       "Research"
     ],
@@ -5155,7 +5392,7 @@
       "alignment"
     ],
     "source": "Research",
-    "number": 338,
+    "number": 343,
     "sources": [
       "Research"
     ],
@@ -5173,7 +5410,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 339,
+    "number": 344,
     "source": "News"
   },
   {
@@ -5183,13 +5420,14 @@
     "url": "https://www.anthropic.com/news/claude-opus-4-7",
     "categories": [
       "announcements",
+      "models",
       "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 340,
+    "number": 345,
     "source": "News"
   },
   {
@@ -5205,7 +5443,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 341,
+    "number": 346,
     "source": "News"
   },
   {
@@ -5220,7 +5458,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 342,
+    "number": 347,
     "source": "News"
   },
   {
@@ -5232,7 +5470,7 @@
       "economics"
     ],
     "source": "Research",
-    "number": 343,
+    "number": 348,
     "sources": [
       "Research"
     ],
@@ -5247,7 +5485,7 @@
       "economics"
     ],
     "source": "Research",
-    "number": 344,
+    "number": 349,
     "sources": [
       "Research"
     ],
@@ -5261,10 +5499,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
-    "number": 345,
+    "source": "Engineering / Research",
+    "number": 350,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -5274,13 +5513,14 @@
     "date": "2026-04-24",
     "url": "https://www.anthropic.com/news/anthropic-nec",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 346,
+    "number": 351,
     "source": "News"
   },
   {
@@ -5289,13 +5529,14 @@
     "date": "2026-04-24",
     "url": "https://www.anthropic.com/news/election-safeguards-update",
     "categories": [
-      "announcements"
+      "announcements",
+      "safeguards"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 347,
+    "number": 352,
     "source": "News"
   },
   {
@@ -5310,7 +5551,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 348,
+    "number": 353,
     "source": "News"
   },
   {
@@ -5319,13 +5560,14 @@
     "date": "2026-04-28",
     "url": "https://www.anthropic.com/news/claude-for-creative-work",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 349,
+    "number": 354,
     "source": "News"
   },
   {
@@ -5337,7 +5579,7 @@
       "science"
     ],
     "source": "Research",
-    "number": 350,
+    "number": 355,
     "sources": [
       "Research"
     ],
@@ -5352,7 +5594,7 @@
       "societal-impacts"
     ],
     "source": "Research",
-    "number": 351,
+    "number": 356,
     "sources": [
       "Research"
     ],
@@ -5364,13 +5606,14 @@
     "date": "2026-05-04",
     "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 352,
+    "number": 357,
     "source": "News"
   },
   {
@@ -5379,13 +5622,14 @@
     "date": "2026-05-05",
     "url": "https://www.anthropic.com/news/finance-agents",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 353,
+    "number": 358,
     "source": "News"
   },
   {
@@ -5394,13 +5638,14 @@
     "date": "2026-05-06",
     "url": "https://www.anthropic.com/news/higher-limits-spacex",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 354,
+    "number": 359,
     "source": "News"
   },
   {
@@ -5411,9 +5656,10 @@
     "categories": [
       "policy"
     ],
-    "source": "Research",
-    "number": 355,
+    "source": "News / Research",
+    "number": 360,
     "sources": [
+      "News",
       "Research"
     ],
     "defaultRead": false
@@ -5427,7 +5673,7 @@
       "alignment"
     ],
     "source": "Research",
-    "number": 356,
+    "number": 361,
     "sources": [
       "Research"
     ],
@@ -5442,7 +5688,7 @@
       "interpretability"
     ],
     "source": "Research",
-    "number": 357,
+    "number": 362,
     "sources": [
       "Research"
     ],
@@ -5457,7 +5703,7 @@
       "alignment"
     ],
     "source": "Research",
-    "number": 358,
+    "number": 363,
     "sources": [
       "Research"
     ],
@@ -5470,13 +5716,14 @@
     "url": "https://www.anthropic.com/news/claude-for-small-business",
     "categories": [
       "announcements",
-      "beneficial-deployments"
+      "beneficial-deployments",
+      "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 359,
+    "number": 364,
     "source": "News"
   },
   {
@@ -5487,9 +5734,10 @@
     "categories": [
       "policy"
     ],
-    "source": "Research",
-    "number": 360,
+    "source": "News / Research",
+    "number": 365,
     "sources": [
+      "News",
       "Research"
     ],
     "defaultRead": false
@@ -5501,13 +5749,14 @@
     "url": "https://www.anthropic.com/news/gates-foundation-partnership",
     "categories": [
       "announcements",
-      "beneficial-deployments"
+      "beneficial-deployments",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 361,
+    "number": 366,
     "source": "News"
   },
   {
@@ -5516,13 +5765,14 @@
     "date": "2026-05-14",
     "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 362,
+    "number": 367,
     "source": "News"
   },
   {
@@ -5537,7 +5787,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 363,
+    "number": 368,
     "source": "News"
   },
   {
@@ -5546,13 +5796,14 @@
     "date": "2026-05-19",
     "url": "https://www.anthropic.com/news/anthropic-kpmg",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 364,
+    "number": 369,
     "source": "News"
   },
   {
@@ -5561,13 +5812,14 @@
     "date": "2026-05-19",
     "url": "https://www.anthropic.com/news/widening-conversation-ai",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 365,
+    "number": 370,
     "source": "News"
   },
   {
@@ -5579,7 +5831,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 366,
+    "number": 371,
     "sources": [
       "Research"
     ],
@@ -5591,10 +5843,11 @@
     "date": "2026-05-22",
     "url": "https://www.anthropic.com/research/glasswing-initial-update",
     "categories": [
-      "announcements"
+      "announcements",
+      "security"
     ],
     "source": "News / Research",
-    "number": 367,
+    "number": 372,
     "sources": [
       "News",
       "Research"
@@ -5613,7 +5866,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 368,
+    "number": 373,
     "source": "News"
   },
   {
@@ -5624,10 +5877,11 @@
     "categories": [
       "engineering"
     ],
-    "source": "Engineering",
-    "number": 369,
+    "source": "Engineering / Research",
+    "number": 374,
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false
   },
@@ -5643,7 +5897,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 370,
+    "number": 375,
     "source": "News"
   },
   {
@@ -5652,10 +5906,11 @@
     "date": "2026-05-27",
     "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
     "categories": [
-      "economics"
+      "economics",
+      "societal-impacts"
     ],
     "source": "Research",
-    "number": 371,
+    "number": 376,
     "sources": [
       "Research"
     ],
@@ -5673,7 +5928,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 372,
+    "number": 377,
     "source": "News"
   },
   {
@@ -5683,13 +5938,14 @@
     "url": "https://www.anthropic.com/news/claude-opus-4-8",
     "categories": [
       "announcements",
+      "models",
       "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 373,
+    "number": 378,
     "source": "News"
   },
   {
@@ -5704,7 +5960,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 374,
+    "number": 379,
     "source": "News"
   },
   {
@@ -5719,7 +5975,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 375,
+    "number": 380,
     "source": "News"
   },
   {
@@ -5728,13 +5984,14 @@
     "date": "2026-06-02",
     "url": "https://www.anthropic.com/news/expanding-project-glasswing",
     "categories": [
-      "announcements"
+      "announcements",
+      "security"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 376,
+    "number": 381,
     "source": "News"
   },
   {
@@ -5745,10 +6002,11 @@
     "categories": [
       "announcements",
       "frontier-red-team",
-      "policy"
+      "policy",
+      "security"
     ],
     "source": "News / Research",
-    "number": 377,
+    "number": 382,
     "sources": [
       "News",
       "Research"
@@ -5764,7 +6022,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 378,
+    "number": 383,
     "sources": [
       "Research"
     ],
@@ -5776,13 +6034,14 @@
     "date": "2026-06-03",
     "url": "https://www.anthropic.com/news/services-track-partner-hub",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 379,
+    "number": 384,
     "source": "News"
   },
   {
@@ -5794,7 +6053,7 @@
       "science"
     ],
     "source": "Research",
-    "number": 380,
+    "number": 385,
     "sources": [
       "Research"
     ],
@@ -5809,7 +6068,7 @@
       "science"
     ],
     "source": "Research",
-    "number": 381,
+    "number": 386,
     "sources": [
       "Research"
     ],
@@ -5824,7 +6083,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 382,
+    "number": 387,
     "sources": [
       "Research"
     ],
@@ -5836,13 +6095,14 @@
     "date": "2026-06-09",
     "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 383,
+    "number": 388,
     "source": "News"
   },
   {
@@ -5859,7 +6119,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 384,
+    "number": 389,
     "source": "News"
   },
   {
@@ -5868,13 +6128,14 @@
     "date": "2026-06-11",
     "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 385,
+    "number": 390,
     "source": "News"
   },
   {
@@ -5883,14 +6144,16 @@
     "date": "2026-06-12",
     "url": "https://www.anthropic.com/news/anthropic-public-record",
     "categories": [
-      "announcements"
+      "announcements",
+      "societal-impacts"
     ],
     "sources": [
-      "News"
+      "News",
+      "Research"
     ],
     "defaultRead": false,
-    "number": 386,
-    "source": "News"
+    "number": 391,
+    "source": "News / Research"
   },
   {
     "id": "fable-mythos-access",
@@ -5898,13 +6161,14 @@
     "date": "2026-06-12",
     "url": "https://www.anthropic.com/news/fable-mythos-access",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 387,
+    "number": 392,
     "source": "News"
   },
   {
@@ -5913,13 +6177,14 @@
     "date": "2026-06-12",
     "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 388,
+    "number": 393,
     "source": "News"
   },
   {
@@ -5931,7 +6196,7 @@
       "economics"
     ],
     "source": "Research",
-    "number": 389,
+    "number": 394,
     "sources": [
       "Research"
     ],
@@ -5949,7 +6214,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 390,
+    "number": 395,
     "source": "News"
   },
   {
@@ -5961,7 +6226,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 391,
+    "number": 396,
     "sources": [
       "Research"
     ],
@@ -5979,7 +6244,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 392,
+    "number": 397,
     "source": "News"
   },
   {
@@ -5991,7 +6256,7 @@
       "economics"
     ],
     "source": "Research",
-    "number": 393,
+    "number": 398,
     "sources": [
       "Research"
     ],
@@ -6004,13 +6269,14 @@
     "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
     "categories": [
       "announcements",
-      "beneficial-deployments"
+      "beneficial-deployments",
+      "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 394,
+    "number": 399,
     "source": "News"
   },
   {
@@ -6019,13 +6285,14 @@
     "date": "2026-06-30",
     "url": "https://www.anthropic.com/news/claude-sonnet-5",
     "categories": [
+      "models",
       "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 395,
+    "number": 400,
     "source": "News"
   },
   {
@@ -6034,13 +6301,14 @@
     "date": "2026-06-30",
     "url": "https://www.anthropic.com/news/redeploying-fable-5",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 396,
+    "number": 401,
     "source": "News"
   },
   {
@@ -6049,13 +6317,14 @@
     "date": "2026-07-02",
     "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
     "categories": [
-      "announcements"
+      "announcements",
+      "safeguards"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 397,
+    "number": 402,
     "source": "News"
   },
   {
@@ -6064,13 +6333,14 @@
     "date": "2026-07-06",
     "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
     "categories": [
-      "case-studies"
+      "case-studies",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 398,
+    "number": 403,
     "source": "News"
   },
   {
@@ -6082,7 +6352,7 @@
       "interpretability"
     ],
     "source": "Research",
-    "number": 399,
+    "number": 404,
     "sources": [
       "Research"
     ],
@@ -6097,7 +6367,7 @@
       "alignment"
     ],
     "source": "Research",
-    "number": 400,
+    "number": 405,
     "sources": [
       "Research"
     ],
@@ -6115,7 +6385,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 401,
+    "number": 406,
     "source": "News"
   },
   {
@@ -6127,7 +6397,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 402,
+    "number": 407,
     "sources": [
       "Research"
     ],
@@ -6145,7 +6415,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 403,
+    "number": 408,
     "source": "News"
   },
   {
@@ -6154,13 +6424,14 @@
     "date": "2026-07-09",
     "url": "https://www.anthropic.com/news/reflect-with-claude",
     "categories": [
-      "announcements"
+      "announcements",
+      "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 404,
+    "number": 409,
     "source": "News"
   },
   {
@@ -6169,13 +6440,14 @@
     "date": "2026-07-09",
     "url": "https://www.anthropic.com/news/ust-claude",
     "categories": [
-      "case-studies"
+      "case-studies",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 405,
+    "number": 410,
     "source": "News"
   },
   {
@@ -6187,7 +6459,7 @@
       "societal-impacts"
     ],
     "source": "Research",
-    "number": 406,
+    "number": 411,
     "sources": [
       "Research"
     ],
@@ -6205,7 +6477,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 407,
+    "number": 412,
     "source": "News"
   },
   {
@@ -6221,7 +6493,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 408,
+    "number": 413,
     "source": "News"
   },
   {
@@ -6233,7 +6505,7 @@
       "economics"
     ],
     "source": "Research",
-    "number": 409,
+    "number": 414,
     "sources": [
       "Research"
     ],
@@ -6251,7 +6523,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 410,
+    "number": 415,
     "source": "News"
   },
   {
@@ -6260,13 +6532,14 @@
     "date": "2026-07-21",
     "url": "https://www.anthropic.com/news/donation-public-first-action",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 411,
+    "number": 416,
     "source": "News"
   },
   {
@@ -6283,7 +6556,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 412,
+    "number": 417,
     "source": "News"
   },
   {
@@ -6292,13 +6565,14 @@
     "date": "2026-07-22",
     "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
     "categories": [
+      "announcements",
       "economics"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 413,
+    "number": 418,
     "source": "News"
   },
   {
@@ -6308,13 +6582,14 @@
     "url": "https://www.anthropic.com/news/claude-opus-5",
     "categories": [
       "announcements",
+      "models",
       "product"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 414,
+    "number": 419,
     "source": "News"
   },
   {
@@ -6326,7 +6601,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 415,
+    "number": 420,
     "sources": [
       "Research"
     ],
@@ -6338,13 +6613,14 @@
     "date": "2026-07-27",
     "url": "https://www.anthropic.com/news/cognizant-anthropic",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 416,
+    "number": 421,
     "source": "News"
   },
   {
@@ -6353,13 +6629,14 @@
     "date": "2026-07-27",
     "url": "https://www.anthropic.com/news/position-open-weights-models",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 417,
+    "number": 422,
     "source": "News"
   },
   {
@@ -6371,7 +6648,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 418,
+    "number": 423,
     "sources": [
       "Research"
     ],
@@ -6383,13 +6660,14 @@
     "date": "2026-07-30",
     "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
     "categories": [
-      "announcements"
+      "announcements",
+      "security"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 419,
+    "number": 424,
     "source": "News"
   },
   {
@@ -6404,7 +6682,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 420,
+    "number": 425,
     "source": "News"
   },
   {
@@ -6414,13 +6692,14 @@
     "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
     "categories": [
       "announcements",
-      "product"
+      "product",
+      "safeguards"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 421,
+    "number": 426,
     "source": "News"
   },
   {
@@ -6432,11 +6711,27 @@
       "science"
     ],
     "source": "Research",
-    "number": 422,
+    "number": 427,
     "sources": [
       "Research"
     ],
     "defaultRead": false
+  },
+  {
+    "id": "tx-data-center-support",
+    "title": "Supporting Governor Abbott’s Calls for Responsible Data Center Development",
+    "date": "2026-08-11",
+    "url": "https://www.anthropic.com/news/tx-data-center-support",
+    "categories": [
+      "policy"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 428,
+    "source": "News"
   },
   {
     "id": "reviewing-the-evidence-on-worker-retraining-programs",
@@ -6447,7 +6742,7 @@
       "economics"
     ],
     "source": "Research",
-    "number": 423,
+    "number": 429,
     "sources": [
       "Research"
     ],
@@ -6462,7 +6757,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 424,
+    "number": 430,
     "sources": [
       "Research"
     ],
@@ -6474,13 +6769,14 @@
     "date": "2026-08-14",
     "url": "https://www.anthropic.com/news/claude-text-watermark",
     "categories": [
-      "announcements"
+      "announcements",
+      "safeguards"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 425,
+    "number": 431,
     "source": "News"
   },
   {
@@ -6492,7 +6788,7 @@
       "science"
     ],
     "source": "Research",
-    "number": 426,
+    "number": 432,
     "sources": [
       "Research"
     ],
@@ -6510,7 +6806,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 427,
+    "number": 433,
     "source": "News"
   },
   {
@@ -6522,7 +6818,7 @@
       "societal-impacts"
     ],
     "source": "Research",
-    "number": 428,
+    "number": 434,
     "sources": [
       "Research"
     ],
@@ -6540,7 +6836,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 429,
+    "number": 435,
     "source": "News"
   },
   {
@@ -6556,7 +6852,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 430,
+    "number": 436,
     "source": "News"
   },
   {
@@ -6568,7 +6864,7 @@
       "alignment"
     ],
     "source": "Research",
-    "number": 431,
+    "number": 437,
     "sources": [
       "Research"
     ],
@@ -6580,28 +6876,30 @@
     "date": "2026-08-31",
     "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
     "categories": [
-      "announcements"
+      "announcements",
+      "safeguards"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 432,
+    "number": 438,
     "source": "News"
   },
   {
     "id": "claude-fable-and-mythos-5-1",
-    "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+    "title": "Introducing Claude Mythos and Fable 5.1",
     "date": "2026-09-01",
     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 433,
+    "number": 439,
     "source": "News"
   },
   {
@@ -6610,13 +6908,14 @@
     "date": "2026-09-01",
     "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
     "categories": [
-      "announcements"
+      "announcements",
+      "safeguards"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 434,
+    "number": 440,
     "source": "News"
   },
   {
@@ -6628,7 +6927,7 @@
       "science"
     ],
     "source": "Research",
-    "number": 435,
+    "number": 441,
     "sources": [
       "Research"
     ],
@@ -6643,11 +6942,27 @@
       "alignment"
     ],
     "source": "Research",
-    "number": 436,
+    "number": 442,
     "sources": [
       "Research"
     ],
     "defaultRead": false
+  },
+  {
+    "id": "econ-scenarios",
+    "title": "Scenarios for our economic future",
+    "date": "2026-09-09",
+    "url": "https://www.anthropic.com/institute/econ-scenarios",
+    "categories": [
+      "economics"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 443,
+    "source": "Research"
   },
   {
     "id": "intelligence-targeting-conventional-weapons-capabilities",
@@ -6658,7 +6973,7 @@
       "frontier-red-team"
     ],
     "source": "Research",
-    "number": 437,
+    "number": 444,
     "sources": [
       "Research"
     ],
@@ -6676,7 +6991,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 438,
+    "number": 445,
     "source": "News"
   },
   {
@@ -6688,7 +7003,7 @@
       "science"
     ],
     "source": "Research",
-    "number": 439,
+    "number": 446,
     "sources": [
       "Research"
     ],
@@ -6706,23 +7021,23 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 440,
+    "number": 447,
     "source": "News"
   },
   {
     "id": "measuring-pace-of-ai-development",
-    "title": "Measurements for understanding the pace of AI development inside frontier labs",
+    "title": "Illuminating the frontier",
     "date": "2026-09-17",
     "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
     "categories": [
-      "other"
+      "alignment"
     ],
     "sources": [
       "Research"
     ],
     "defaultRead": false,
     "addedOn": "2026-09-29",
-    "number": 441,
+    "number": 448,
     "source": "Research"
   },
   {
@@ -6731,13 +7046,14 @@
     "date": "2026-09-18",
     "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 442,
+    "number": 449,
     "source": "News"
   },
   {
@@ -6746,13 +7062,14 @@
     "date": "2026-09-22",
     "url": "https://www.anthropic.com/claude-opus-5-5",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
-    "number": 443,
+    "number": 450,
     "source": "News"
   },
   {
@@ -6767,7 +7084,7 @@
       "News"
     ],
     "defaultRead": false,
-    "number": 444,
+    "number": 451,
     "source": "News"
   },
   {
@@ -6783,7 +7100,7 @@
       "Research"
     ],
     "defaultRead": false,
-    "number": 445,
+    "number": 452,
     "source": "News / Research"
   },
   {
@@ -6799,7 +7116,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-09-29",
-    "number": 446,
+    "number": 453,
     "source": "Research"
   },
   {
@@ -6815,7 +7132,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-09-29",
-    "number": 447,
+    "number": 454,
     "source": "Research"
   },
   {
@@ -6824,14 +7141,15 @@
     "date": "2026-09-28",
     "url": "https://www.anthropic.com/claude-sonnet-5-5",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
     "addedOn": "2026-09-29",
-    "number": 448,
+    "number": 455,
     "source": "News"
   },
   {
@@ -6848,7 +7166,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-09-30",
-    "number": 449,
+    "number": 456,
     "source": "Research"
   },
   {
@@ -6864,7 +7182,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-09-30",
-    "number": 450,
+    "number": 457,
     "source": "Research"
   },
   {
@@ -6880,7 +7198,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-01",
-    "number": 451,
+    "number": 458,
     "source": "Research"
   },
   {
@@ -6896,7 +7214,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-02",
-    "number": 452,
+    "number": 459,
     "source": "News"
   },
   {
@@ -6912,7 +7230,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-02",
-    "number": 453,
+    "number": 460,
     "source": "Research"
   },
   {
@@ -6928,7 +7246,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-03",
-    "number": 454,
+    "number": 461,
     "source": "News"
   },
   {
@@ -6944,7 +7262,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-07",
-    "number": 455,
+    "number": 462,
     "source": "News"
   },
   {
@@ -6953,14 +7271,15 @@
     "date": "2026-10-07",
     "url": "https://www.anthropic.com/claude-haiku-5-5",
     "categories": [
-      "announcements"
+      "announcements",
+      "models"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
     "addedOn": "2026-10-08",
-    "number": 456,
+    "number": 463,
     "source": "News"
   },
   {
@@ -6969,14 +7288,15 @@
     "date": "2026-10-08",
     "url": "https://www.anthropic.com/news/2026-usage-policy-update",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
     "addedOn": "2026-10-09",
-    "number": 457,
+    "number": 464,
     "source": "News"
   },
   {
@@ -6985,14 +7305,15 @@
     "date": "2026-10-08",
     "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
     "categories": [
-      "announcements"
+      "announcements",
+      "security"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
     "addedOn": "2026-10-09",
-    "number": 458,
+    "number": 465,
     "source": "News"
   },
   {
@@ -7001,14 +7322,15 @@
     "date": "2026-10-08",
     "url": "https://www.anthropic.com/news/genesis-mission-commitment",
     "categories": [
-      "announcements"
+      "announcements",
+      "partnerships"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
     "addedOn": "2026-10-09",
-    "number": 459,
+    "number": 466,
     "source": "News"
   },
   {
@@ -7024,7 +7346,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-09",
-    "number": 460,
+    "number": 467,
     "source": "Research"
   },
   {
@@ -7040,7 +7362,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-09",
-    "number": 461,
+    "number": 468,
     "source": "Research"
   },
   {
@@ -7056,7 +7378,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-10",
-    "number": 462,
+    "number": 469,
     "source": "Research"
   },
   {
@@ -7065,15 +7387,17 @@
     "date": "2026-10-12",
     "url": "https://www.anthropic.com/research/distillation-defenses",
     "categories": [
-      "policy"
+      "policy",
+      "safeguards"
     ],
     "sources": [
+      "News",
       "Research"
     ],
     "defaultRead": false,
     "addedOn": "2026-10-13",
-    "number": 463,
-    "source": "Research"
+    "number": 470,
+    "source": "News / Research"
   },
   {
     "id": "self-replicating-ai",
@@ -7088,7 +7412,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-13",
-    "number": 464,
+    "number": 471,
     "source": "Research"
   },
   {
@@ -7100,12 +7424,13 @@
       "engineering"
     ],
     "sources": [
-      "Engineering"
+      "Engineering",
+      "Research"
     ],
     "defaultRead": false,
     "addedOn": "2026-10-14",
-    "number": 465,
-    "source": "Engineering"
+    "number": 472,
+    "source": "Engineering / Research"
   },
   {
     "id": "2026-us-midterms",
@@ -7113,14 +7438,15 @@
     "date": "2026-10-14",
     "url": "https://www.anthropic.com/news/2026-us-midterms",
     "categories": [
-      "policy"
+      "policy",
+      "safeguards"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
     "addedOn": "2026-10-15",
-    "number": 466,
+    "number": 473,
     "source": "News"
   },
   {
@@ -7136,7 +7462,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-15",
-    "number": 467,
+    "number": 474,
     "source": "News"
   },
   {
@@ -7145,14 +7471,15 @@
     "date": "2026-10-15",
     "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
     "categories": [
-      "announcements"
+      "announcements",
+      "policy"
     ],
     "sources": [
       "News"
     ],
     "defaultRead": false,
     "addedOn": "2026-10-16",
-    "number": 468,
+    "number": 475,
     "source": "News"
   },
   {
@@ -7168,7 +7495,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-17",
-    "number": 469,
+    "number": 476,
     "source": "Research"
   },
   {
@@ -7184,7 +7511,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-17",
-    "number": 470,
+    "number": 477,
     "source": "Research"
   },
   {
@@ -7200,7 +7527,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-17",
-    "number": 471,
+    "number": 478,
     "source": "Research"
   },
   {
@@ -7216,7 +7543,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-17",
-    "number": 472,
+    "number": 479,
     "source": "Research"
   },
   {
@@ -7232,7 +7559,7 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-17",
-    "number": 473,
+    "number": 480,
     "source": "Research"
   },
   {
@@ -7248,7 +7575,249 @@
     ],
     "defaultRead": false,
     "addedOn": "2026-10-19",
-    "number": 474,
+    "number": 481,
     "source": "News"
+  },
+  {
+    "id": "attack-surface-reduction",
+    "title": "Using Claude to reduce the attack surface of code",
+    "date": "2026-10-20",
+    "url": "https://www.anthropic.com/research/attack-surface-reduction",
+    "categories": [
+      "frontier-red-team"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 482,
+    "source": "Research"
+  },
+  {
+    "id": "claude-scorpion-toxin-binder-design",
+    "title": "How Claude designed protein binders against scorpion neurotoxins",
+    "date": "2026-10-20",
+    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "categories": [
+      "science"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 483,
+    "source": "Research"
+  },
+  {
+    "id": "christopher-stubbs-joins-long-term-benefit-trust",
+    "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+    "date": "2026-10-21",
+    "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 484,
+    "source": "News"
+  },
+  {
+    "id": "donating-agent-skills-to-the-agentic-ai-foundation",
+    "title": "Donating Agent Skills to the Agentic AI Foundation",
+    "date": "2026-10-22",
+    "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+    "categories": [
+      "product"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 485,
+    "source": "News"
+  },
+  {
+    "id": "formal-verification",
+    "title": "LLMs are making formal software verification feasible at a much larger scale",
+    "date": "2026-10-22",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "categories": [
+      "frontier-red-team"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 486,
+    "source": "Research"
+  },
+  {
+    "id": "open-call-guest-investigators-life-sciences",
+    "title": "Open call for guest investigators in the life sciences",
+    "date": "2026-10-22",
+    "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 487,
+    "source": "News"
+  },
+  {
+    "id": "alignment-assessment-ukaisi",
+    "title": "An alignment assessment of the UK AISI cybertesting incident",
+    "date": "2026-10-23",
+    "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+    "categories": [
+      "alignment"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 488,
+    "source": "Research"
+  },
+  {
+    "id": "s1-sec",
+    "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+    "date": "2026-10-26",
+    "url": "https://www.anthropic.com/news/s1-sec",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 489,
+    "source": "News"
+  },
+  {
+    "id": "agents-judgment-calls",
+    "title": "How AI agents shape experts’ judgment calls",
+    "date": "2026-10-27",
+    "url": "https://www.anthropic.com/research/agents-judgment-calls",
+    "categories": [
+      "alignment"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 490,
+    "source": "Research"
+  },
+  {
+    "id": "discovering-vulnerabilities-with-claude",
+    "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+    "date": "2026-10-27",
+    "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+    "categories": [
+      "frontier-red-team"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 491,
+    "source": "Research"
+  },
+  {
+    "id": "early-progress-drug-development",
+    "title": "Early progress on accelerating drug development with Claude",
+    "date": "2026-10-27",
+    "url": "https://www.anthropic.com/research/early-progress-drug-development",
+    "categories": [
+      "announcements",
+      "science"
+    ],
+    "sources": [
+      "News",
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 492,
+    "source": "News / Research"
+  },
+  {
+    "id": "expanding-partnership-gsa",
+    "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+    "date": "2026-10-27",
+    "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+    "categories": [
+      "partnerships"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 493,
+    "source": "News"
+  },
+  {
+    "id": "ai-for-science-expands-foundations-research-institutions",
+    "title": "AI for Science expands to foundations and research institutions",
+    "date": "2026-10-28",
+    "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 494,
+    "source": "News"
+  },
+  {
+    "id": "provable-inference",
+    "title": "Progress on provable inference for large language models",
+    "date": "2026-11-02",
+    "url": "https://www.anthropic.com/research/provable-inference",
+    "categories": [
+      "frontier-red-team"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 495,
+    "source": "Research"
+  },
+  {
+    "id": "investigating-vault-particles-with-claude",
+    "title": "Investigating vault particles with Claude",
+    "date": "2026-11-04",
+    "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+    "categories": [
+      "science"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-05",
+    "number": 496,
+    "source": "Research"
   }
 ]

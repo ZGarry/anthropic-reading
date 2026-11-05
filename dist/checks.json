@@ -1,12 +1,35 @@
 [
   {
     "date": "2026-11-05",
-    "status": "failed",
-    "checkedAt": "2026-11-05T07:57:56+00:00",
-    "attempts": 1,
-    "newIds": [],
-    "total": null,
-    "error": "News shrank unexpectedly (283 -> 23); original catalogue preserved"
+    "status": "success",
+    "checkedAt": "2026-11-05T08:07:27+00:00",
+    "attempts": 2,
+    "newIds": [
+      "agents-judgment-calls",
+      "ai-for-science-expands-foundations-research-institutions",
+      "alignment-assessment-ukaisi",
+      "attack-surface-reduction",
+      "christopher-stubbs-joins-long-term-benefit-trust",
+      "claude-on-mars",
+      "claude-scorpion-toxin-binder-design",
+      "constitution",
+      "discovering-vulnerabilities-with-claude",
+      "donating-agent-skills-to-the-agentic-ai-foundation",
+      "early-progress-drug-development",
+      "econ-scenarios",
+      "expanding-partnership-gsa",
+      "formal-verification",
+      "investigating-vault-particles-with-claude",
+      "long-running-claude",
+      "making-of-claude-code",
+      "open-call-guest-investigators-life-sciences",
+      "project-glasswing",
+      "provable-inference",
+      "s1-sec",
+      "tx-data-center-support"
+    ],
+    "total": 496,
+    "error": null
   },
   {
     "date": "2026-11-04",
