@@ -438,5 +438,15 @@
       "red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned",
       "scaling-laws-and-interpretability-of-learning-from-repeated-data"
     ]
+  },
+  {
+    "checkedAt": "2026-11-06T07:58:36+00:00",
+    "newIds": [
+      "how-researchers-use-claude"
+    ],
+    "changedIds": [
+      "open-call-guest-investigators-life-sciences",
+      "challenges-in-red-teaming-ai-systems"
+    ]
   }
 ]

@@ -1319,11 +1319,12 @@
       "safeguards"
     ],
     "sources": [
-      "News"
+      "News",
+      "Research"
     ],
     "defaultRead": false,
     "number": 84,
-    "source": "News"
+    "source": "News / Research"
   },
   {
     "id": "engineering-challenges-interpretability",
@@ -7664,15 +7665,17 @@
     "date": "2026-10-22",
     "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
     "categories": [
-      "announcements"
+      "announcements",
+      "science"
     ],
     "sources": [
-      "News"
+      "News",
+      "Research"
     ],
     "defaultRead": false,
     "addedOn": "2026-11-05",
     "number": 487,
-    "source": "News"
+    "source": "News / Research"
   },
   {
     "id": "alignment-assessment-ukaisi",
@@ -7818,6 +7821,22 @@
     "defaultRead": false,
     "addedOn": "2026-11-05",
     "number": 496,
+    "source": "Research"
+  },
+  {
+    "id": "how-researchers-use-claude",
+    "title": "AI for scientific discovery: How researchers use Claude",
+    "date": "2026-11-05",
+    "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+    "categories": [
+      "economics"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-06",
+    "number": 497,
     "source": "Research"
   }
 ]
