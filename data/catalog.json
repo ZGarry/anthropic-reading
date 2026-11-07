@@ -7838,5 +7838,54 @@
     "addedOn": "2026-11-06",
     "number": 497,
     "source": "Research"
+  },
+  {
+    "id": "components-of-agent-memory",
+    "title": "The components of agent memory",
+    "date": "2026-11-06",
+    "url": "https://www.anthropic.com/research/components-of-agent-memory",
+    "categories": [
+      "engineering"
+    ],
+    "sources": [
+      "Engineering",
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-07",
+    "number": 498,
+    "source": "Engineering / Research"
+  },
+  {
+    "id": "project-eve-claude-plays-mmorpgs",
+    "title": "Project EVE: Claude plays MMORPGs",
+    "date": "2026-11-06",
+    "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+    "categories": [
+      "frontier-red-team"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-07",
+    "number": 499,
+    "source": "Research"
+  },
+  {
+    "id": "teaching-ai-to-build-scientific-models",
+    "title": "Teaching AI to build scientific models",
+    "date": "2026-11-06",
+    "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+    "categories": [
+      "science"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-07",
+    "number": 500,
+    "source": "Research"
   }
 ]

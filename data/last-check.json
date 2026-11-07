@@ -1,24 +1,23 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-06T07:58:36+00:00",
-  "total": 497,
+  "checkedAt": "2026-11-07T07:15:38+00:00",
+  "total": 500,
   "newIds": [
-    "how-researchers-use-claude"
+    "teaching-ai-to-build-scientific-models",
+    "components-of-agent-memory",
+    "project-eve-claude-plays-mmorpgs"
   ],
-  "changedIds": [
-    "open-call-guest-investigators-life-sciences",
-    "challenges-in-red-teaming-ai-systems"
-  ],
+  "changedIds": [],
   "sourceCounts": {
     "News": 282,
-    "Research": 206,
-    "Engineering": 27,
+    "Research": 207,
+    "Engineering": 28,
     "alignment": 51,
     "economics": 26,
     "interpretability": 35,
     "societal-impacts": 25,
-    "frontier-red-team": 37,
-    "science": 19
+    "frontier-red-team": 38,
+    "science": 18
   },
   "noLongerListed": [
     "claude-fable-and-mythos-5-1",

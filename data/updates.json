@@ -448,5 +448,14 @@
       "open-call-guest-investigators-life-sciences",
       "challenges-in-red-teaming-ai-systems"
     ]
+  },
+  {
+    "checkedAt": "2026-11-07T07:15:38+00:00",
+    "newIds": [
+      "teaching-ai-to-build-scientific-models",
+      "components-of-agent-memory",
+      "project-eve-claude-plays-mmorpgs"
+    ],
+    "changedIds": []
   }
 ]
