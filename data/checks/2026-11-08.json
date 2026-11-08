@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-11-08T07:26:34+00:00",
+      "total": 500,
+      "newIds": [],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 282,
+        "Research": 207,
+        "Engineering": 28,
+        "alignment": 51,
+        "economics": 26,
+        "interpretability": 35,
+        "societal-impacts": 25,
+        "frontier-red-team": 38,
+        "science": 18
+      },
+      "noLongerListed": [
+        "claude-fable-and-mythos-5-1",
+        "long-running-Claude",
+        "threat-intelligence-report-september-2026"
+      ]
+    }
+  ]
+}
