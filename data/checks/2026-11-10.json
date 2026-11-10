@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "attempts": [
+    {
+      "status": "success",
+      "checkedAt": "2026-11-10T08:27:43+00:00",
+      "total": 502,
+      "newIds": [
+        "claude-fable-and-mythos-5-2",
+        "claude-electronics-design"
+      ],
+      "changedIds": [],
+      "sourceCounts": {
+        "News": 283,
+        "Research": 208,
+        "Engineering": 28,
+        "alignment": 51,
+        "economics": 26,
+        "interpretability": 35,
+        "societal-impacts": 25,
+        "frontier-red-team": 38,
+        "science": 19
+      },
+      "noLongerListed": [
+        "claude-fable-and-mythos-5-1",
+        "long-running-Claude",
+        "threat-intelligence-report-september-2026"
+      ]
+    }
+  ]
+}

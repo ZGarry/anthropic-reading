@@ -7887,5 +7887,38 @@
     "addedOn": "2026-11-07",
     "number": 500,
     "source": "Research"
+  },
+  {
+    "id": "claude-electronics-design",
+    "title": "Testing Claude on real-world electronics design",
+    "date": "2026-11-09",
+    "url": "https://www.anthropic.com/research/claude-electronics-design",
+    "categories": [
+      "science"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-10",
+    "number": 501,
+    "source": "Research"
+  },
+  {
+    "id": "claude-fable-and-mythos-5-2",
+    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+    "date": "2026-11-09",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "categories": [
+      "announcements",
+      "models"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-10",
+    "number": 502,
+    "source": "News"
   }
 ]

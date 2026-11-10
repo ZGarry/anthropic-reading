@@ -1,29 +1,28 @@
 {
-  "total": 500,
-  "newsCount": 299,
-  "researchCount": 231,
+  "total": 502,
+  "newsCount": 300,
+  "researchCount": 232,
   "engineeringCount": 28,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-11-09T08:03:16+00:00",
-  "lastSuccessfulDay": "2026-11-09",
-  "newsSnapshot": "2026-11-09",
-  "researchSnapshot": "2026-11-09",
+  "checkedAt": "2026-11-10T08:27:43+00:00",
+  "lastSuccessfulDay": "2026-11-10",
+  "newsSnapshot": "2026-11-10",
+  "researchSnapshot": "2026-11-10",
   "sourceCounts": {
-    "News": 282,
-    "Research": 207,
+    "News": 283,
+    "Research": 208,
     "Engineering": 28,
     "alignment": 51,
     "economics": 26,
     "interpretability": 35,
     "societal-impacts": 25,
     "frontier-red-team": 38,
-    "science": 18
+    "science": 19
   },
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "teaching-ai-to-build-scientific-models",
-    "components-of-agent-memory",
-    "project-eve-claude-plays-mmorpgs"
+    "claude-fable-and-mythos-5-2",
+    "claude-electronics-design"
   ]
 }
