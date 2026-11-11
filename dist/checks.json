@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-11-11",
+    "status": "success",
+    "checkedAt": "2026-11-11T07:47:12+00:00",
+    "attempts": 1,
+    "newIds": [
+      "roadshow-launch"
+    ],
+    "total": 503,
+    "error": null
+  },
+  {
     "date": "2026-11-10",
     "status": "success",
     "checkedAt": "2026-11-10T08:27:43+00:00",

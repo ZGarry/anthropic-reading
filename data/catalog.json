@@ -7920,5 +7920,21 @@
     "addedOn": "2026-11-10",
     "number": 502,
     "source": "News"
+  },
+  {
+    "id": "roadshow-launch",
+    "title": "Anthropic launches roadshow for proposed initial public offering",
+    "date": "2026-11-10",
+    "url": "https://www.anthropic.com/news/roadshow-launch",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-11",
+    "number": 503,
+    "source": "News"
   }
 ]

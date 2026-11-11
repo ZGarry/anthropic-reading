@@ -1,14 +1,13 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-10T08:27:43+00:00",
-  "total": 502,
+  "checkedAt": "2026-11-11T07:47:12+00:00",
+  "total": 503,
   "newIds": [
-    "claude-fable-and-mythos-5-2",
-    "claude-electronics-design"
+    "roadshow-launch"
   ],
   "changedIds": [],
   "sourceCounts": {
-    "News": 283,
+    "News": 284,
     "Research": 208,
     "Engineering": 28,
     "alignment": 51,
