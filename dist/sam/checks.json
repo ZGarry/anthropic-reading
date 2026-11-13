@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-11-13",
+    "status": "success",
+    "checkedAt": "2026-11-13T08:04:20+00:00",
+    "attempts": 1,
+    "total": 121,
+    "error": null,
+    "newIds": []
+  },
+  {
     "date": "2026-11-12",
     "status": "success",
     "checkedAt": "2026-11-12T08:23:42+00:00",
