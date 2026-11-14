@@ -7936,5 +7936,22 @@
     "addedOn": "2026-11-11",
     "number": 503,
     "source": "News"
+  },
+  {
+    "id": "building-strong-safety-evaluations",
+    "title": "Building strong safety evaluations",
+    "date": "2026-11-13",
+    "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+    "categories": [
+      "engineering"
+    ],
+    "sources": [
+      "Engineering",
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-14",
+    "number": 504,
+    "source": "Engineering / Research"
   }
 ]
