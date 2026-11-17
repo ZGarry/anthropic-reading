@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-11-17",
+    "status": "success",
+    "checkedAt": "2026-11-17T09:16:11+00:00",
+    "attempts": 1,
+    "newIds": [
+      "coordinated-vulnerability-disclosure-timelines"
+    ],
+    "total": 505,
+    "error": null
+  },
+  {
     "date": "2026-11-16",
     "status": "success",
     "checkedAt": "2026-11-16T08:02:15+00:00",

@@ -1,27 +1,27 @@
 {
-  "total": 504,
+  "total": 505,
   "newsCount": 301,
-  "researchCount": 233,
+  "researchCount": 234,
   "engineeringCount": 29,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-11-16T08:02:15+00:00",
-  "lastSuccessfulDay": "2026-11-16",
-  "newsSnapshot": "2026-11-16",
-  "researchSnapshot": "2026-11-16",
+  "checkedAt": "2026-11-17T09:16:11+00:00",
+  "lastSuccessfulDay": "2026-11-17",
+  "newsSnapshot": "2026-11-17",
+  "researchSnapshot": "2026-11-17",
   "sourceCounts": {
     "News": 284,
-    "Research": 209,
+    "Research": 210,
     "Engineering": 29,
     "alignment": 51,
     "economics": 26,
     "interpretability": 35,
     "societal-impacts": 25,
-    "frontier-red-team": 38,
+    "frontier-red-team": 39,
     "science": 19
   },
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "building-strong-safety-evaluations"
+    "coordinated-vulnerability-disclosure-timelines"
   ]
 }

@@ -479,5 +479,12 @@
       "building-strong-safety-evaluations"
     ],
     "changedIds": []
+  },
+  {
+    "checkedAt": "2026-11-17T09:16:11+00:00",
+    "newIds": [
+      "coordinated-vulnerability-disclosure-timelines"
+    ],
+    "changedIds": []
   }
 ]

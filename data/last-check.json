@@ -1,18 +1,20 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-16T08:02:15+00:00",
-  "total": 504,
-  "newIds": [],
+  "checkedAt": "2026-11-17T09:16:11+00:00",
+  "total": 505,
+  "newIds": [
+    "coordinated-vulnerability-disclosure-timelines"
+  ],
   "changedIds": [],
   "sourceCounts": {
     "News": 284,
-    "Research": 209,
+    "Research": 210,
     "Engineering": 29,
     "alignment": 51,
     "economics": 26,
     "interpretability": 35,
     "societal-impacts": 25,
-    "frontier-red-team": 38,
+    "frontier-red-team": 39,
     "science": 19
   },
   "noLongerListed": [
