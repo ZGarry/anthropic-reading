@@ -749,7 +749,8 @@
     "url": "https://www.anthropic.com/research/evaluating-ai-systems",
     "categories": [
       "frontier-red-team",
-      "policy"
+      "policy",
+      "societal-impacts"
     ],
     "source": "Research",
     "number": 48,
@@ -4543,7 +4544,8 @@
     "date": "2026-01-29",
     "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
     "categories": [
-      "alignment"
+      "alignment",
+      "societal-impacts"
     ],
     "source": "Research",
     "number": 289,
@@ -5468,7 +5470,8 @@
     "date": "2026-04-22",
     "url": "https://www.anthropic.com/research/81k-economics",
     "categories": [
-      "economics"
+      "economics",
+      "societal-impacts"
     ],
     "source": "Research",
     "number": 348,
@@ -7969,5 +7972,37 @@
     "addedOn": "2026-11-17",
     "number": 505,
     "source": "Research"
+  },
+  {
+    "id": "claude-black-hole-physics",
+    "title": "Claude solves two open problems in the physics of black holes",
+    "date": "2026-11-17",
+    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+    "categories": [
+      "science"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-19",
+    "number": 506,
+    "source": "Research"
+  },
+  {
+    "id": "anthropic-prices-initial-public-offering",
+    "title": "Anthropic prices initial public offering",
+    "date": "2026-11-18",
+    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-19",
+    "number": 507,
+    "source": "News"
   }
 ]

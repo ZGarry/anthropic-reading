@@ -1,19 +1,26 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-18T08:36:13+00:00",
-  "total": 505,
-  "newIds": [],
-  "changedIds": [],
+  "checkedAt": "2026-11-19T08:51:39+00:00",
+  "total": 507,
+  "newIds": [
+    "anthropic-prices-initial-public-offering",
+    "claude-black-hole-physics"
+  ],
+  "changedIds": [
+    "81k-economics",
+    "AI-assistance-coding-skills",
+    "evaluating-ai-systems"
+  ],
   "sourceCounts": {
-    "News": 284,
-    "Research": 210,
+    "News": 285,
+    "Research": 211,
     "Engineering": 29,
-    "alignment": 51,
-    "economics": 26,
+    "alignment": 50,
+    "economics": 27,
     "interpretability": 35,
-    "societal-impacts": 25,
-    "frontier-red-team": 39,
-    "science": 19
+    "societal-impacts": 30,
+    "frontier-red-team": 38,
+    "science": 20
   },
   "noLongerListed": [
     "claude-fable-and-mythos-5-1",

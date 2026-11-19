@@ -1,27 +1,28 @@
 {
-  "total": 505,
-  "newsCount": 301,
-  "researchCount": 234,
+  "total": 507,
+  "newsCount": 302,
+  "researchCount": 235,
   "engineeringCount": 29,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-11-18T08:36:13+00:00",
-  "lastSuccessfulDay": "2026-11-18",
-  "newsSnapshot": "2026-11-18",
-  "researchSnapshot": "2026-11-18",
+  "checkedAt": "2026-11-19T08:51:39+00:00",
+  "lastSuccessfulDay": "2026-11-19",
+  "newsSnapshot": "2026-11-19",
+  "researchSnapshot": "2026-11-19",
   "sourceCounts": {
-    "News": 284,
-    "Research": 210,
+    "News": 285,
+    "Research": 211,
     "Engineering": 29,
-    "alignment": 51,
-    "economics": 26,
+    "alignment": 50,
+    "economics": 27,
     "interpretability": 35,
-    "societal-impacts": 25,
-    "frontier-red-team": 39,
-    "science": 19
+    "societal-impacts": 30,
+    "frontier-red-team": 38,
+    "science": 20
   },
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "coordinated-vulnerability-disclosure-timelines"
+    "anthropic-prices-initial-public-offering",
+    "claude-black-hole-physics"
   ]
 }
