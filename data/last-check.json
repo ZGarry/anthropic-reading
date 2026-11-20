@@ -1,16 +1,9 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-19T08:51:39+00:00",
+  "checkedAt": "2026-11-20T08:37:41+00:00",
   "total": 507,
-  "newIds": [
-    "anthropic-prices-initial-public-offering",
-    "claude-black-hole-physics"
-  ],
-  "changedIds": [
-    "81k-economics",
-    "AI-assistance-coding-skills",
-    "evaluating-ai-systems"
-  ],
+  "newIds": [],
+  "changedIds": [],
   "sourceCounts": {
     "News": 285,
     "Research": 211,
