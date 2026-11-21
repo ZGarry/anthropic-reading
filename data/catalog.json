@@ -8004,5 +8004,21 @@
     "addedOn": "2026-11-19",
     "number": 507,
     "source": "News"
+  },
+  {
+    "id": "ipo-close",
+    "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+    "date": "2026-11-20",
+    "url": "https://www.anthropic.com/news/ipo-close",
+    "categories": [
+      "announcements"
+    ],
+    "sources": [
+      "News"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-21",
+    "number": 508,
+    "source": "News"
   }
 ]

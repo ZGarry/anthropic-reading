@@ -1,11 +1,13 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-20T08:37:41+00:00",
-  "total": 507,
-  "newIds": [],
+  "checkedAt": "2026-11-21T08:20:11+00:00",
+  "total": 508,
+  "newIds": [
+    "ipo-close"
+  ],
   "changedIds": [],
   "sourceCounts": {
-    "News": 285,
+    "News": 286,
     "Research": 211,
     "Engineering": 29,
     "alignment": 50,
