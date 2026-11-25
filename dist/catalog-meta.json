@@ -1,19 +1,19 @@
 {
-  "total": 508,
+  "total": 509,
   "newsCount": 303,
-  "researchCount": 235,
+  "researchCount": 236,
   "engineeringCount": 29,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-11-23T09:10:34+00:00",
-  "lastSuccessfulDay": "2026-11-23",
-  "newsSnapshot": "2026-11-23",
-  "researchSnapshot": "2026-11-23",
+  "checkedAt": "2026-11-25T09:53:39+00:00",
+  "lastSuccessfulDay": "2026-11-25",
+  "newsSnapshot": "2026-11-25",
+  "researchSnapshot": "2026-11-25",
   "sourceCounts": {
     "News": 286,
-    "Research": 211,
+    "Research": 212,
     "Engineering": 29,
     "alignment": 50,
-    "economics": 27,
+    "economics": 28,
     "interpretability": 35,
     "societal-impacts": 30,
     "frontier-red-team": 38,
@@ -22,6 +22,6 @@
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "ipo-close"
+    "working-with-ai"
   ]
 }

@@ -8020,5 +8020,21 @@
     "addedOn": "2026-11-21",
     "number": 508,
     "source": "News"
+  },
+  {
+    "id": "working-with-ai",
+    "title": "Working with AI",
+    "date": "2026-11-23",
+    "url": "https://www.anthropic.com/research/working-with-ai",
+    "categories": [
+      "economics"
+    ],
+    "sources": [
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-25",
+    "number": 509,
+    "source": "Research"
   }
 ]

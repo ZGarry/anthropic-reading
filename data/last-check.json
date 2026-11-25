@@ -1,15 +1,17 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-23T09:10:34+00:00",
-  "total": 508,
-  "newIds": [],
+  "checkedAt": "2026-11-25T09:53:39+00:00",
+  "total": 509,
+  "newIds": [
+    "working-with-ai"
+  ],
   "changedIds": [],
   "sourceCounts": {
     "News": 286,
-    "Research": 211,
+    "Research": 212,
     "Engineering": 29,
     "alignment": 50,
-    "economics": 27,
+    "economics": 28,
     "interpretability": 35,
     "societal-impacts": 30,
     "frontier-red-team": 38,
