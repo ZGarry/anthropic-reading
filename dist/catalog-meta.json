@@ -1,17 +1,17 @@
 {
-  "total": 509,
+  "total": 510,
   "newsCount": 303,
-  "researchCount": 236,
-  "engineeringCount": 29,
+  "researchCount": 237,
+  "engineeringCount": 30,
   "readBatch": "public-catalog-v1",
-  "checkedAt": "2026-11-25T09:53:39+00:00",
-  "lastSuccessfulDay": "2026-11-25",
-  "newsSnapshot": "2026-11-25",
-  "researchSnapshot": "2026-11-25",
+  "checkedAt": "2026-11-26T09:36:18+00:00",
+  "lastSuccessfulDay": "2026-11-26",
+  "newsSnapshot": "2026-11-26",
+  "researchSnapshot": "2026-11-26",
   "sourceCounts": {
     "News": 286,
-    "Research": 212,
-    "Engineering": 29,
+    "Research": 213,
+    "Engineering": 30,
     "alignment": 50,
     "economics": 28,
     "interpretability": 35,
@@ -22,6 +22,6 @@
   "baselineDate": "2026-09-28",
   "baselineTotal": 443,
   "latestNewIds": [
-    "working-with-ai"
+    "migrating-api-to-rust"
   ]
 }

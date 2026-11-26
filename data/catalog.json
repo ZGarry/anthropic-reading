@@ -8036,5 +8036,22 @@
     "addedOn": "2026-11-25",
     "number": 509,
     "source": "Research"
+  },
+  {
+    "id": "migrating-api-to-rust",
+    "title": "Migrating our Messages API to Rust",
+    "date": "2026-11-25",
+    "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+    "categories": [
+      "engineering"
+    ],
+    "sources": [
+      "Engineering",
+      "Research"
+    ],
+    "defaultRead": false,
+    "addedOn": "2026-11-26",
+    "number": 510,
+    "source": "Engineering / Research"
   }
 ]
